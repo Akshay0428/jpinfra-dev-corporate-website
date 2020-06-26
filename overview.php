@@ -218,19 +218,34 @@ JP Infra believes in bringing serenity back to the bustling and busy nature of t
       <h1 class="texttransform" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">achievements</h1>
       <div class="achievements-slider">
         <div class="abtpage-achievement">
-          <img src="img/about-us/ABP News.png" alt="ABP News">
+          <img src="img/about-us/Best-Developer.png" alt="Best-Developer">
         </div>
         <div class="abtpage-achievement">
-          <img src="img/about-us/DNA.png" alt="DNA">
+          <img src="img/about-us/Best-Sustainable.png" alt="Best-Sustainable">
         </div>
         <div class="abtpage-achievement">
-          <img src="img/about-us/Fast 50.png" alt="Fast 50">
+          <img src="img/about-us/Best-Township.png" alt="Best-Township">
         </div>
         <div class="abtpage-achievement">
-          <img src="img/about-us/Ind-Aus Leadership.png" alt="Ind-Aus Leadership">
+          <img src="img/about-us/Iconic-Developer.png" alt="Iconic-Developer">
         </div>
         <div class="abtpage-achievement">
-          <img src="img/about-us/Master Brand.png" alt="Master Brand">
+          <img src="img/about-us/Indias-Fastest-Growing-Brand.png" alt="Indias-Fastest-Growing-Brand">
+        </div>
+        <div class="abtpage-achievement">
+          <img src="img/about-us/Luxury-Projects.png" alt="Luxury-Projects">
+        </div>
+        <div class="abtpage-achievement">
+          <img src="img/about-us/Master-Brand.png" alt="Master-Brand">
+        </div>
+        <div class="abtpage-achievement">
+          <img src="img/about-us/Real-estate-sector.png" alt="Real-estate-sector">
+        </div>
+        <div class="abtpage-achievement">
+          <img src="img/about-us/Thought-Leader-in-real-estate.png" alt="Thought-Leader-in-real-estate">
+        </div>
+        <div class="abtpage-achievement">
+          <img src="img/about-us/Township-of-the-year.png" alt="Township-of-the-year">
         </div>
       </div>
       <div class="clearfix"></div>

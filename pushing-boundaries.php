@@ -427,7 +427,7 @@
                 <div class="pbslider-care-txt">
                     <div class="pbcare-line m_hide pbcareline-jpcare"></div>
                     <h3 class="fontweight-bold">JP - Care</h3>
-                    <p class="fontweight txt-left">JP Infra believes that their customers' needs always come first. JP Care -- an initiative by JP Infra -- is designed to do just that by providing potential customers a support system that lets them book the house that they've been dreaming of.</p>
+                    <p class="fontweight txt-left">JP Infra believes that their customers' needs always come first. JP Care - an initiative by JP Infra - is designed to do just that by providing potential customers a support system that lets them book the house that they've been dreaming of.</p>
                 </div>
             </div>
         </div>

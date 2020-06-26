@@ -178,25 +178,29 @@
       <div class="clearfix"></div>
     </div>
     <div class="gallery-silder mrg-top">
-      <div class="gal-img">
+      <div class="gal-img pos-relative">
         <img src="img/jp_delivered/Unity_Towers/Bathroom.jpg" alt="Bathroom" class="m_hide">
         <img src="img/jp_delivered/Unity_Towers/Bathroom-mob.jpg" alt="Bathroom" class="d_hide">
         <p class="txt-align texttransform fontweight pdng-top">Bathroom</p>
+        <p class="pos-absolute p-deliver pgal-artistic">Actual Image</p>
       </div>
-      <div class="gal-img">
+      <div class="gal-img pos-relative">
         <img src="img/jp_delivered/Unity_Towers/Kitchen.jpg" alt="Kitchen" class="m_hide">
         <img src="img/jp_delivered/Unity_Towers/Kitchen-mob.jpg" alt="Kitchen" class="d_hide">
         <p class="txt-align texttransform fontweight pdng-top">Kitchen</p>
+        <p class="pos-absolute p-deliver pgal-artistic">Actual Image</p>
       </div>
-      <div class="gal-img">
+      <div class="gal-img pos-relative">
         <img src="img/jp_delivered/Unity_Towers/Living-room.jpg" alt="Living-room" class="m_hide">
         <img src="img/jp_delivered/Unity_Towers/Living-room-mob.jpg" alt="Living-room" class="d_hide">
         <p class="txt-align texttransform fontweight pdng-top">Living room</p>
+        <p class="pos-absolute p-deliver pgal-artistic">Actual Image</p>
       </div>
-      <div class="gal-img">
+      <div class="gal-img pos-relative">
         <img src="img/jp_delivered/Unity_Towers/Bedroom.jpg" alt="Unity-Towers" class="m_hide">
         <img src="img/jp_delivered/Unity_Towers/Bedroom-mob.jpg" alt="Unity-Towers" class="d_hide">
         <p class="txt-align texttransform fontweight pdng-top">Bedroom</p>
+        <p class="pos-absolute p-deliver pgal-artistic">Actual Image</p>
       </div>
     </div>
 
