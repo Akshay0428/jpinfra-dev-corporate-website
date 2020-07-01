@@ -87,7 +87,7 @@
   </style>
 
 <div class="logo-banner">
-    <a href="https://www.dotwisedigital.com/jpuat">
+    <a href="https://www.jpinfra.com">
         <img src="img/JP Infra Logo.png">
     </a>
 </div>
@@ -116,8 +116,7 @@
          <div class="sub-head" data-aos="fade-up" data-aos-duration="3000">REDEFINING INTEGRATED LIVING</div>
 
          <div class="liveHead2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-            <p>Atria offers everything you have ever imagined for, Atria offers you dream homes. It’s not a place merely measured in square feet, it’s an elevated way of life. The best of all is how each and every house at Atria takes care of your overall being. What makes life at Atria wholesome and holistic is the vast array of amenities and facilities.Placed at the intersection of east and west highways of Mumbai, North Atria enjoys superb connectivity via Ghodbunder Road and Western Express Highway at different ends. Infused with an atmosphere of elegance and finesse, the dream home sprawls graciously across vast acres of nature, providing views that are calm, soothing and breathtaking.
-</p>
+            <p>Atria offers everything you have ever imagined for, Atria offers you dream homes of 1 and 2 BHK apartments. It’s not a place merely measured in square feet, it’s an elevated way of life. The best of all is how each and every house at Atria takes care of your overall being. What makes life at Atria wholesome and holistic is the vast array of amenities and facilities. Placed at the intersection of east and west highways of Mumbai, North Atria enjoys superb connectivity via Ghodbunder Road and Western Express Highway at different ends. Infused with an atmosphere of elegance and finesse, the dream home sprawls graciously across vast acres of nature, providing views that are calm, soothing and breathtaking.</p>
          </div>
          <div class="clearfix"></div>
       </div>

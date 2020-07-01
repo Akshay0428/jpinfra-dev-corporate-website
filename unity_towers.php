@@ -87,7 +87,7 @@
   </style>
 
 <div class="logo-banner">
-    <a href="https://www.dotwisedigital.com/jpuat">
+    <a href="https://www.jpinfra.com">
         <img src="img/JP Infra Logo.png">
     </a>
 </div>
@@ -116,8 +116,7 @@
          <div class="sub-head" data-aos="fade-up" data-aos-duration="3000">LIVE LIFE THE ELEGANT WAY WITH JP INFRA</div>
 
          <div class="liveHead2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-            <p>Located in the heart of the city, Unity Towers is nothing short of a dream home. Offering the most heavenly views of the city, JP Infra’s Unity Towers gives you the opportunity to embrace the finer things in life. Providing an excellent view of the city’s skyline, the houses are constructed to turn your dreams into reality.It offers you the innumerable benefits of living in one of the most affluent and sought after locations of the city. With some of the best malls, hospitals and education institutes closeby, all your needs are looked after. Not just that, with a Jain Temple nearby, it is conducive to an environment of spirituality and bliss.
-</p>
+            <p>Located in the heart of the city, Unity Towers is nothing short of a dream home. Offering the most heavenly views of the city, JP Infra’s Unity Towers gives you the opportunity to embrace the finer things in life. Providing an excellent view of the city’s skyline, the 1 and 2 BHK houses are constructed to turn your dreams into reality. It offers you the innumerable benefits of living in one of the most affluent and sought after locations of the city. With some of the best malls, hospitals and education institutes closeby, all your needs are looked after.  Not just that, with a Jain Temple nearby, it brings an environment of spirituality.</p>
          </div>
          <div class="clearfix"></div>
       </div>

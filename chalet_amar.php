@@ -87,7 +87,7 @@
   </style>
 
 <div class="logo-banner">
-    <a href="https://www.dotwisedigital.com/jpuat">
+    <a href="https://www.jpinfra.com">
         <img src="img/JP Infra Logo.png">
     </a>
 </div>
@@ -116,7 +116,7 @@
          <div class="sub-head" data-aos="fade-up" data-aos-duration="3000">LUXURIOUS COMFORT AT JUHU</div>
 
          <div class="liveHead2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-            <p>Located along the beautiful Arabian Sea, Chalet Amar is just a walk away from the beach. In addition to having soul-enhancing views and access to the pristine beach, it is composed with all the perfect elements of a dream house. It offers the much desired “on the beach” lifestyle and pampers you with a range of ultra-modern amenities.It lets you break away from the monotony of the hustles and bustles of the city by soaking in the vast range of amenities at your own comfort. Not only is it settled against a perfect backdrop of azure skies and clear shimmering water, it also provides the perfect backdrop for everything you desire your dream house to be. Your very own slice of paradise awaits your presence at JP’s Chalet Amar.</p>
+            <p>Located along the beautiful Arabian Sea, Chalet Amar is just a walk away from the beach. In addition to having soul-enhancing views and access to the pristine beach, it is composed with all the perfect elements of a 5 BHK dream house. It offers the much desired “on the beach” lifestyle and pampers you with a range of ultra-modern amenities. It lets you break away from the monotony of city life, by soaking in the vast range of amenities at your own comfort. Not only is it settled against a perfect backdrop of azure skies and clear shimmering water, it also provides the perfect backdrop for everything you desire your dream house to be. Your very own slice of paradise awaits your presence at JP’s Chalet Amar.</p>
          </div>
          <div class="clearfix"></div>
       </div>

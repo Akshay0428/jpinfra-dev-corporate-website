@@ -1,45 +1,39 @@
 @charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css?family=Bad+Script');
-
-
 @font-face {
-    font-family: 'Ogg-Roman';
-    src: url('../assets/fonts/Ogg-Roman.otf');
+	font-family: 'Ogg-Roman';
+	src: url('../assets/fonts/Ogg-Roman.otf');
 }
 
 @font-face {
-    font-family: 'WS-Light';
-    src: url('../assets/fonts/WorkSans-Light.otf');
+	font-family: 'WS-Light';
+	src: url('../assets/fonts/WorkSans-Light.otf');
 }
 
 @font-face {
-    font-family: 'WS-Light-t';
-    src: url('../assets/fonts/WorkSans-Light.ttf');
+	font-family: 'WS-Light-t';
+	src: url('../assets/fonts/WorkSans-Light.ttf');
 }
 
 @font-face {
-    font-family: 'WS-Med';
-    src: url('../assets/fonts/WorkSans-Medium.otf');
-}
-
-
-@font-face {
-    font-family: 'WS-Med-t';
-    src: url('../assets/fonts/WorkSans-Medium.ttf');
-}
-
-
-@font-face {
-    font-family: 'WS-Reg';
-    src: url('../assets/fonts/WorkSans-Regular.otf');
+	font-family: 'WS-Med';
+	src: url('../assets/fonts/WorkSans-Medium.otf');
 }
 
 @font-face {
-    font-family: 'PFD-Reg';
-    src: url('../assets/fonts/PlayfairDisplay-Regular.ttf');
+	font-family: 'WS-Med-t';
+	src: url('../assets/fonts/WorkSans-Medium.ttf');
 }
 
+@font-face {
+	font-family: 'WS-Reg';
+	src: url('../assets/fonts/WorkSans-Regular.otf');
+}
+
+@font-face {
+	font-family: 'PFD-Reg';
+	src: url('../assets/fonts/PlayfairDisplay-Regular.ttf');
+}
 
 .centerx,
 .header__basic--black .header__img,
@@ -78,11 +72,7 @@
 .section__about .background__about .play i,
 .section__customer .customers .customers__li img,
 .section__projets .awards .awards__li a img,
-.section__projets
-	.swiper-projets
-	.swiper-slide
-	.swiper-slide-block-content
-	.text__content,
+.section__projets .swiper-projets .swiper-slide .swiper-slide-block-content .text__content,
 .section__team .swiper-slide .slide__img .overlay,
 nav .center__navigation {
 	position: absolute;
@@ -91,43 +81,45 @@ nav .center__navigation {
 	-webkit-transform: translateY(-50%) translateX(-50%);
 	transform: translateY(-50%) translateX(-50%);
 }
-    .np-swiper-slide .swiper-slide__block__img {
-        width: 100% !important;
+
+.np-swiper-slide .swiper-slide__block__img {
+	width: 100% !important;
 }
 
-.swiper-button-next
-{
-    width: 50px !important;
-    height: 44px !important;
-    margin-top: 0px !important;
-}   
-    
+.swiper-button-next {
+	width: 50px !important;
+	height: 44px !important;
+	margin-top: 0px !important;
+}
+
 .swiper-button-prev {
-    position: absolute;
-    top: 82% !important;
-    width: 50px !important;
-    height: 44px !important;
-    margin-top: -19px !important;
-    z-index: 10;
-    cursor: pointer;
-    -moz-background-size: 27px 44px;
-    -webkit-background-size: 27px 44px;
-    background-size: 27px 44px;
-    background-position: center;
-    background-repeat: no-repeat;
+	position: absolute;
+	top: 82% !important;
+	width: 50px !important;
+	height: 44px !important;
+	margin-top: -19px !important;
+	z-index: 10;
+	cursor: pointer;
+	-moz-background-size: 27px 44px;
+	-webkit-background-size: 27px 44px;
+	background-size: 27px 44px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
-.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
-    background-image: none !important;
-    left: 0px !important;
-    right: auto;
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+	background-image: none !important;
+	left: 0px !important;
+	right: auto;
 }
 
-.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-    background-image: none !important;
-    right: 0 !important;
-    left: auto;
-    top: 0 !important;
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+	background-image: none !important;
+	right: 0 !important;
+	left: auto;
+	top: 0 !important;
 }
 
 article,
@@ -139,8 +131,6 @@ section {
 	display: block;
 }
 
-
-
 figcaption,
 figure,
 main {
@@ -151,21 +141,16 @@ figure {
 	margin: 0px;
 }
 
-
-
 pre {
 	font-family: monospace, monospace;
 	font-size: 1em;
 }
 
-
-
-
 abbr[title] {
 	border-bottom: none;
 	text-decoration: underline;
 	-webkit-text-decoration: underline dotted;
-	        text-decoration: underline dotted;
+	text-decoration: underline dotted;
 }
 
 b,
@@ -231,7 +216,6 @@ img {
 svg:not(:root) {
 	overflow: hidden;
 }
-
 
 button,
 input {
@@ -336,8 +320,6 @@ template {
 	display: none;
 }
 
-
-
 .main__title {
 	color: #f2f3f3;
 	text-transform: uppercase;
@@ -365,23 +347,22 @@ template {
 }
 
 .main__subtitle span {
-
 	color: #00a8af;
 	font-style: italic;
 }
 
 .link {
-    display: inline-block;
-    width: auto;
-    position: relative;
-    text-decoration: none;
-    color: #21272b;
-    font-size: 0.7em;
-    font-weight: 400;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: all 0.3s ease-in-out;
-    margin-left: -36px;
+	display: inline-block;
+	width: auto;
+	position: relative;
+	text-decoration: none;
+	color: #21272b;
+	font-size: 0.7em;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+	margin-left: -36px;
 }
 
 .link:hover {
@@ -449,19 +430,15 @@ template {
 	cursor: pointer;
 }
 
-.swiper-button-next i{
-    
-    position: relative;
-    left: 50%;
-    top: 19px;
-    color: #21272b;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    transition: all 0.3s ease-in-out;    
-    
-    
+.swiper-button-next i {
+	position: relative;
+	left: 50%;
+	top: 19px;
+	color: #21272b;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	transition: all 0.3s ease-in-out;
 }
-
 
 .swiper-button-prev i {
 	position: relative;
@@ -472,38 +449,37 @@ template {
 	transform: translate(-50%, -50%);
 	transition: all 0.3s ease-in-out;
 }
+
 @-webkit-keyframes arrowRight {
 	0% {
 		-webkit-transform: translate(0, -50%);
 		transform: translate(0, -50%);
 	}
-
 	50% {
 		-webkit-transform: translate(-10px, -50%);
 		transform: translate(-10px, -50%);
 	}
-
 	100% {
 		-webkit-transform: translate(0, -50%);
 		transform: translate(0, -50%);
 	}
 }
+
 @keyframes arrowRight {
 	0% {
 		-webkit-transform: translate(0, -50%);
 		transform: translate(0, -50%);
 	}
-
 	50% {
 		-webkit-transform: translate(-10px, -50%);
 		transform: translate(-10px, -50%);
 	}
-
 	100% {
 		-webkit-transform: translate(0, -50%);
 		transform: translate(0, -50%);
 	}
 }
+
 .swiper-button-next:hover i,
 .swiper-button-prev:hover i {
 	-webkit-animation: arrowRight 1s infinite;
@@ -625,7 +601,6 @@ template {
 		margin-top: 0;
 		padding: 0;
 	}
-
 	.swiper-slide__block .swiper-slide__block__text:before {
 		content: "";
 		display: block;
@@ -661,32 +636,31 @@ template {
 @media (min-width: 1200px) {
 	.swiper-slide__block .main__title {
 		margin-top: 60px;
-        margin-left: -36px;
-        font-family: 'PFD-Reg';
-        letter-spacing: 2px;
-        line-height: 28px;
+		margin-left: -36px;
+		font-family: 'PFD-Reg';
+		letter-spacing: 2px;
+		line-height: 28px;
 	}
 }
 
 .swiper-slide__block .main__subtitle {
-    margin: 10px 0;
-    font-weight: 100;
+	margin: 10px 0;
+	font-weight: 100;
 	font-size: 0.9em;
 	color: #f2f3f3;
 }
 
 @media (min-width: 768px) {
 	.swiper-slide__block .main__subtitle {
-	font-size: 0.9em;
-    margin-left: -36px;
-    font-family: 'WS-Light';
-    padding-top: 12px;
-    line-height: 19px;
+		font-size: 0.9em;
+		margin-left: -36px;
+		font-family: 'WS-Light';
+		padding-top: 12px;
+		line-height: 19px;
 	}
 }
 
 .swiper-slide__block .main__subtitle span {
-
 	font-style: normal;
 	color: #00a8af;
 	letter-spacing: 1px;
@@ -701,17 +675,16 @@ template {
 }
 
 .swiper-slide__block .paragraphe {
-     max-width: 413px;
-    text-shadow: 7px 7px 16px #d2d2d2;
-    margin-top: 24px;
-    font-size: 16px;
-    text-align: justify;
-    margin-left: -36px;
-    font-family: 'WS-Light';
+	max-width: 413px;
+	text-shadow: 7px 7px 16px #d2d2d2;
+	margin-top: 24px;
+	font-size: 16px;
+	text-align: justify;
+	margin-left: -36px;
+	font-family: 'WS-Light';
 }
 
 .swiper-slide__block .number {
-
 	font-size: 12em;
 	font-weight: 900;
 	width: 100%;
@@ -727,11 +700,11 @@ template {
 
 @media (min-width: 1200px) {
 	.swiper-slide__block .number {
-	margin-top: 0px;
-    font-size: 8em;
-    position: absolute;
-    top: 0px;
-    right: 45px;
+		margin-top: 0px;
+		font-size: 8em;
+		position: absolute;
+		top: 0px;
+		right: 45px;
 	}
 }
 
@@ -792,7 +765,6 @@ template {
 .section__slider {
 	width: 100%;
 	height: auto;
-
 }
 
 @media (min-width: 1200px) {
@@ -813,7 +785,6 @@ template {
 		max-width: 1200px;
 		width: 85%;
 	}
-
 	.section__slider .container__center:after {
 		content: "";
 		display: block;
@@ -834,49 +805,58 @@ template {
 	}
 }
 
-
-
 @media (max-width: 768px) {
-    
-    
-.swiper-slide__block .paragraphe {
-   
-    font-size: 14px;
-    margin-left: 0px;
+	.swiper-slide__block .paragraphe {
+		font-size: 14px;
+		margin-left: 0px;
+	}
+	.swiper-slide__block .main__title {
+		font-size: 20px;
+	}
+	.swiper-slide__block .number {
+		font-size: 50px;
+		font-weight: 900;
+		width: 100%;
+		display: block;
+		color: rgba(16, 47, 65, 0.04);
+		position: relative;
+		bottom: 380px;
+		z-index: 1;
+		text-align: right;
+		margin: 0;
+		line-height: 0px;
+	}
+	.swiper-button-prev {
+		top: 35.5% !important;
+	}
+	.project {
+		margin-top: 0px;
+	}
+	.link {
+		margin-left: 0px;
+	}
 }
 
-.swiper-slide__block .main__title {
 
-    font-size: 20px;
-   
+/****************************************Iphone 6 7 8 Plus***************************************************/
+
+@media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+	.swiper-button-prev {
+		top: 40.5% !important;
+	}
 }
 
-.swiper-slide__block .number {
 
-	font-size: 50px;
-	font-weight: 900;
-	width: 100%;
-	display: block;
-	color: rgba(16, 47, 65, 0.04);
-	position: relative;
-	bottom: 380px;
-	z-index: 1;
-	text-align: right;
-	margin: 0;
-	line-height: 0px;
+/*********************Iphone X***************************************************************/
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+	.swiper-button-prev {
+		top: 36.7% !important;
+	}
 }
 
-   
-.swiper-button-prev {
-    
-    top: 36.7% !important;
-}
-
-.project{
-    
-    margin-top: 0px;
-}
-.link {
-    margin-left: 0px;
-}
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+	.swiper-button-prev {
+		top: 36.7% !important;
+	}
 }

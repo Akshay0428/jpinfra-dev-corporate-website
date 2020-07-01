@@ -9,5 +9,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /jpuat/blog/index.php [L]
 </IfModule>
 
-
 # END WordPress

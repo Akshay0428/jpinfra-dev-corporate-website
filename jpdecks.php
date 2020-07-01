@@ -87,7 +87,7 @@
   </style>
 
 <div class="logo-banner">
-    <a href="https://www.dotwisedigital.com/jpuat">
+    <a href="https://www.jpinfra.com">
         <img src="img/JP Infra Logo.png">
     </a>
 </div>
@@ -116,7 +116,7 @@
          <div class="sub-head" data-aos="fade-up" data-aos-duration="3000">Remarkable Lifestyle, Luxurious Apartments</div>
 
          <div class="liveHead2" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-            <p>Enchanted with remarkable views and greenery, JP Decks stands out for its exquisite planning and attention to detail. Its thoughtfully designed homes seamlessly integrate elegance and luxury with convenience and comfort. Crafted with precision down to finest details under the direction of renowned architect Reza Kabul, JP Decks promises an extraordinary lifestyle.Situated at one of the city’s most sought-after locations, JP Decks provides perfectly designed chic and modern homes overlooking vast canopies of greenery. A 39 storied structure of wonder, it boasts a vast range of amenities and luxuries including an automated car wash facility, a mini amphitheater and a magnanimous play area, all of which raises the bar of sophisticated living.</p>
+            <p>Enchanted with remarkable views and greenery, JP Decks stands out for its exquisite planning and attention to detail. Its thoughtfully designed 2 and 3 BHK homes seamlessly integrate elegance and luxury with convenience and comfort. Crafted with precision down to finest details under the direction of renowned architect Reza Kabul, JP Decks promises an extraordinary lifestyle. Located at one of the city’s most sought-after locations, JP Decks provides perfectly designed chic and modern homes overlooking vast canopies of greenery. A 39 storied structure of wonder, it boasts a vast range of amenities including an automated car wash facility, a mini amphitheater, and a wide play area, all of which raise the bar of sophisticated living.</p>
          </div>
          <div class="clearfix"></div>
       </div>

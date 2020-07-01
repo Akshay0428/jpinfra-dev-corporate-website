@@ -268,7 +268,7 @@ transition:all .6s ease-in-out;
      
            <!-- Carousel items -->
             <div class="logo-banner">
-                <a href="https://www.dotwisedigital.com/jpuat">
+                <a href="https://www.jpinfra.com/">
                     <img src="img/JP Infra Logo.png">
                 </a>
             </div>
@@ -1007,7 +1007,7 @@ transition:all .6s ease-in-out;
                         <div class="delivered-proj-bot-line mob-del-line d_hide"></div>
                         <div class="clearfix"></div>
 <!--                         <div class="jp-button main-know-btn mb-del-btn d_hide">
-                          <a href="https://www.dotwisedigital.com/jpuat/pushing-boundaries.php" target="blank">
+                          <a href="https://www.jpinfra.com/pushing-boundaries.php" target="blank">
                             <div class="know-text-jp main-know-text">
                               <h5>Know More</h5>
                             </div>
@@ -1257,7 +1257,7 @@ transition:all .6s ease-in-out;
         </div>
         <div class="clearfix"></div>
         <div class="jp-button main-know-btn">
-          <a href="https://www.dotwisedigital.com/jpuat/pushing-boundaries.php" target="blank">
+          <a href="https://www.jpinfra.com/pushing-boundaries.php" target="blank">
             <div class="know-text-jp main-know-text">
               <h5>Know More</h5>
             </div>
@@ -1324,7 +1324,8 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
        </div>
        <div class="clearfix"></div>
     </div>
-    <p class="pos-absolute p-northhome p-deliver">This is an Actual image of North Garden City Interior clubhouse<br>
+    <p class="pos-absolute p-northhome p-deliver">
+        <!--This is an Actual image of North Garden City Interior clubhouse<br>-->
 This is a rendered image of the interior of North Garden City's clubhouse prepared by the architect based on the current plan, final color and specification may vary.</p>
    <div class="clearfix"></div>
 </section>
@@ -1412,7 +1413,7 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
                                           <h3 data-swiper-parallax-x="-50%" class="main__subtitle">ANOTHER NORTHERN DELIGHT</h3>
                                           <h3 data-swiper-parallax-x="-50%" class="main__subtitle">1 Bed Homes</h3>
                                          <!--  <p data-swiper-parallax-x="-40%" class="paragraphe">Experience the finer things in life at Codename Now or Never and live life in style. A perfect blend of all things sweet, spicy and sour, it is sure to keep all your taste buds and preferences happy and satisfied.</p> -->
-                                         <p data-swiper-parallax-x="-40%" class="paragraphe">With Codename Now or Never, JP Infra has redefined affordable luxury and expanded its range of great living spaces with an attractive offering of a 1 Bed home that caters to both your physical as well as spiritual living needs. Codename Now or Never offers you an attractive 1 Bed home that caters to both your physical as well as spiritual living needs.</p>
+                                         <p data-swiper-parallax-x="-40%" class="paragraphe">With Codename Now or Never, JP Infra has redefined affordable luxury and expanded its range of great living spaces with an attractive offering of a 1 Bed home that caters to both your physical as well as spiritual living needs. With several unique features in its compact and thoughtful design, Codename Now or Never invites you to upgrade to a life of no more compromises.</p>
                                           <!--<a data-swiper-parallax-x="-30%" class="link" target="_blank" href="#">Discover</a>-->
                                           <span data-swiper-parallax-y="60%" class="number">1</span>
                                        </div>

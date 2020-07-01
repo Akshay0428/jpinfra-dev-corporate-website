@@ -115,7 +115,9 @@
       cursor: pointer;
       color: black;
     }
-
+    .pb-cb {
+    top: 89% !important;
+    }
   @media only screen and (max-width:768px){
     .main_absolute {
       position: absolute;
@@ -204,12 +206,18 @@
 .carbon_main {
     margin: 45px auto 0px auto;
 }
+.carbon_main-new {
+    margin: 120px auto 0px auto;
+}
 .footprint-tabs {
     top: -50px;
 }
-
-
-
+.footprint-tabs-new {
+    top: -37px;
+}
+.pb-cb {
+    top: 84% !important;
+}
   }
   </style>   
 
@@ -262,62 +270,90 @@
   <div class="clearfix"></div>
 
 
-  <!-- Human Touch start here-->
-  <section class="human_sec">
-    <div class="container_main">
-      <div class="human_main">
-        <div class="main_absolute">
-          <div class="content_abs">
-            <p class="head_con"><i>“Quality of life actually begins at home – it’s in your street, around your community” –<br> Charles Kennedy</i> </p>
-            <p class="para_con">A prized city, Barcelona gave life back to their streets by introducing this concept and we, at JP Infra, are striving to do the same. In the hustle and bustle of Mumbai’s busy streets, you get to experience a pollution-free zone by restricting entry to carbon-emitting vehicles. JP Infra is proud to be part of bringing a slice of Europe to Mumbai to create a residential utopia, inspired by international style living.</p>
-          </div>
+  <!-- Human Touch start here-->  
+
+ <section class="Integral_sec">
+        
+        <div class="container_main carbon_main-new text-center">
+            <div class="container_main text-center">
+              <div class="lable_line"><img src="img/Gray-Head-line.png" class="northimage"></div>
+                <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Design Innovation</h1>
+                <div class="liveHead2 padding-project" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+                    <p class="carbon_txt">We at JP Infra believe in saving our environment and have ensured we follow what we believe in.</p>
+                    <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>   -->
+                </div>
+                <div class="footprint-tab">
+                    <div class="foot-img-line">
+                        <img src="img/foot-line.png" alt="foot-line.png">
+                        <div class="footprint-tabs-new">
+                            <div class="srw-tab srw-tab-new" id="codeopen">
+                                <h6 class="tc-grey srw-tab-active" id="h64">Codename Open Streets</h6>
+                                <div class="blue-dot4 blue-dot-active"></div>
+                            </div>
+                            <div class="srw-tab srw-tab-new" id="unityid">
+                                <h6 class="tc-grey" id="h65">Unity Towers</h6>
+                                <div class="blue-dot5"></div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+                        <div class="carbon-div-new">
+                            <div class="openstreetclass">
+                                <div class="solar-content">
+                                    <div class="solar-img pos-relative">
+                                        <img src="img/pushing_boundaries/Barcelona-concept.jpg" alt="solar">
+                                        <p class="pos-absolute pb-cb p-deliver"> Rendered Image</p>
+                                    </div>
+                                    <div class="solar-txt">
+                                        <div class="solar-img-txt">
+                                            <div class="solar-icon">
+                                                <img src="img/pushing_boundaries/Barcelona-concept.png" class="img-icon">
+                                            </div>
+                                            <div class="solar-para solar-para-new texttransform">
+                                                <h6>Codename Open Streets</h6>
+                                            </div>
+                                            <div class="clearfix"></div>    
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="unityclass">
+                                <div class="solar-content">
+                                    <div class="solar-img pos-relative">
+                                        <img src="img/pushing_boundaries/Unity-Towers.jpg" alt="Waste-management">
+                                        <p class="pos-absolute pb-cb p-deliver"> Rendered Image</p>
+                                    </div>
+                                    <div class="solar-txt">
+                                        <div class="solar-img-txt">
+                                            <div class="solar-icon">
+                                                <img src="img/pushing_boundaries/Unity-Towers.png" class="img-icon">
+                                            </div>
+                                            <div class="solar-para solar-para-new texttransform">
+                                                <h6>Unity Towers</h6>
+                                            </div>
+                                            <div class="clearfix"></div>    
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="clearfix"></div>    
+                    </div>
+                </div>
+            </div>
+            
+                
         </div>
-        <!-- <div class="line_human"></div> -->
-        <div class="human_col">
-          <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Design Innovation</h1>
-            <div class="padding-project" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
-              <p>JP Infra is proud to be a front runner when bringing the standard of international living to Mumbai.</p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="push-human">
-              <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
-                <!-- Indicators -->
-                <!-- <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol> -->
-                <!-- <div class="carousel-inner"> -->
-                  <div class="item active pos-relative">
-                    <img src="img/pushing_boundaries/humanleft1.jpg" class="img-1">
-                    <p class="pos-absolute pb-di p-deliver">Artist's Impression</p>
-                  </div>
-                  <!-- <div class="item pos-relative">
-                    <img src="img/pushing_boundaries/humanleft2.jpg" class="img-2">
-                    <p class="pos-absolute pb-di p-deliver">Actual image</p>
-                  </div> -->
-                  <!-- <div class="item">
-                    <img src="img/pushing_boundaries/humanleft3.jpg" class="img-cls">
-                  </div> -->
-                <!-- </div> -->
-              <!-- </div> -->
-            </div>
-            <div class="clearfix"></div>
-          </div>
-          <div class="human_col mob_human">
-            <div class="human-img pos-relative">
-              <img src="img/pushing_boundaries/humanright.jpg" class="img-cls2">
-              <p class="pos-absolute pb-right pb-di-l p-deliver">Artist's Impression</p>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-        <div class="clearfix"></div>
-      </div>
+        
     </section>
-
-
 <!-- Human Touch end here -->
 
 <!-- integrated living start-->
@@ -589,6 +625,22 @@
         $('#h61').css("color","#727272")
         $('#h62').css("color","#727272")
         $('#h63').css("color","#2E5689")
+    });
+    $('#codeopen').click(function(){
+        $('.carbon-div-new .openstreetclass').show();
+        $('.carbon-div-new .unityclass').hide();
+        $('.blue-dot4').css("background-color", "#2E5689");
+        $('.blue-dot5').css("background-color", "#727272");
+        $('#h64').css("color","#2E5689")
+        $('#h65').css("color","#727272")
+    });
+    $('#unityid').click(function(){
+        $('.carbon-div-new .unityclass').show();
+        $('.carbon-div-new .openstreetclass').hide();
+        $('.blue-dot4').css("background-color", "#727272");
+        $('.blue-dot5').css("background-color", "#2E5689");
+        $('#h64').css("color","#727272")
+        $('#h65').css("color","#2E5689")
     });
 
     

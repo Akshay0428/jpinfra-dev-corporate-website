@@ -42,7 +42,7 @@ $mail->Send();
 $mail->ClearAllRecipients();
 
 $mail->Subject = "User Mail";
-$mail->Body = "Thank You";
+$mail->Body = "Thank You For Contacting JP Infra";
 
 $mail->AddAddress("$email");
 
@@ -60,8 +60,8 @@ exit;
 
 
 $servername = 'localhost';
-$username = 'dotwised_jp';
-$password = 'jpinfra@123';
+$username = 'root';
+$password = 'Pass@987';
 $dbname = 'dotwised_jpinfra';
 
 
