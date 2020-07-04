@@ -126,6 +126,9 @@ img {
 	border-radius: 20px;
 }
 
+a.call-a {
+    padding: 0px !important;
+}
 
 /*********************
 dropdown
