@@ -44,6 +44,11 @@
          Favicons
          =============================================== -->
       <link rel="shortcut icon" href="img/favicon.ico">
+      <script>
+      $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+      });
+      </script> 
    </head>
    <body>
       <div class="top_arow"></div>
@@ -81,7 +86,7 @@
                      <a href="contact.php">CONTACT US</a>
                      <div class="hoverLine hoverLine6"></div>
                   </li>
-                  <li class=""><a href="tel:022 42415678" class="call-a" data-toggle="tooltip" title="022 42415678"><img class="navCall" src="img/Call.png"/></a></li>
+                  <li class=""><a href="tel:022 42415678" class="call-a" data-toggle="tooltip" data-placement="bottom" title="022 42415678"><img class="navCall" src="img/Call.png"/></a></li>
                   <li class=""><img class="navMenu" src="img/menu.png"/></li>
                   <li class="">
                      <img class="navMenu1" src="img/cross.png"/>
@@ -93,7 +98,7 @@
                            <li class="li-1"><a href="media.php">MEDIA</a></li>
                            <li class="li-1"><a href="nri_corner.php">NRI CORNER</a></li>
                            <li class="li-1"><a href="blog">BLOGS</a></li>
-                           <li class="li-1"><a href="redefining-real-estate.php">REDEFINING REAL ESTATE</a></li>
+                           <li class="li-1"><a href="redefining-real-estate.php">REDEFINING<br>REAL ESTATE</a></li>
                            <li class="li-3"><a href="work-with-us.php">WORK WITH US</a></li>
                         </ul>
                      </div>
@@ -147,7 +152,7 @@
                   	<div class="hoverLine hoverLine6"></div>
                   </li>
                   <li class="overLi6">
-                     <a href="redefining-real-estate.php">REDEFINING REAL ESTATE</a>
+                     <a href="redefining-real-estate.php">REDEFINING<br>REAL ESTATE</a>
                   	<div class="hoverLine hoverLine6"></div>
                   </li>
                   <li class="overLi6">
@@ -158,8 +163,4 @@
             </div>
          </div>
       </nav>
-      <script>
-      $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
-      });
-      </script>      
+           
