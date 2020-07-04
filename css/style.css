@@ -180,7 +180,35 @@ dropdown
 .padding-media {
 	padding: 60px 0px;
 }
+.tooltip {
+	position: relative;
+	display: inline-block;
+    opacity: initial;
+}
 
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 176px;
+    background-color: white;
+    color: #0e0e0e;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    text-transform: capitalize;
+    font-size: 16px;
+    left: 0;
+    top: 95%;
+    border: 1px solid #eee;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 /*--------------------------------------------------------------
 Basic Reset

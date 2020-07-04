@@ -86,7 +86,14 @@
                      <a href="contact.php">CONTACT US</a>
                      <div class="hoverLine hoverLine6"></div>
                   </li>
-                  <li class=""><a href="tel:022 42415678" class="call-a" data-toggle="tooltip" data-placement="bottom" title="022 42415678"><img class="navCall" src="img/Call.png"/></a></li>
+                  <li class="">
+                  	<!-- <a href="tel:022 42415678" class="call-a" data-toggle="tooltip" data-placement="bottom" title="022 42415678"><img class="navCall" src="img/Call.png"/></a> -->
+                  	<div class="tooltip"><img class="navCall" src="img/Call.png"/>
+                       <span class="tooltiptext">tel: 022 42415678</span>
+                     </div>
+                  </li>
+
+                  	
                   <li class=""><img class="navMenu" src="img/menu.png"/></li>
                   <li class="">
                      <img class="navMenu1" src="img/cross.png"/>
