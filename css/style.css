@@ -184,6 +184,7 @@ dropdown
 	position: relative;
 	display: inline-block;
     opacity: initial;
+    z-index: unset;
 }
 
 .tooltip .tooltiptext {
@@ -203,7 +204,6 @@ dropdown
     border: 1px solid #eee;
   /* Position the tooltip */
   position: absolute;
-  z-index: 1;
 }
 
 .tooltip:hover .tooltiptext {

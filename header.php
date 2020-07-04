@@ -91,6 +91,7 @@
                   	<div class="tooltip"><img class="navCall" src="img/Call.png"/>
                        <span class="tooltiptext">tel: 022 42415678</span>
                      </div>
+                     <div class="clearfix"></div>
                   </li>
 
                   	
