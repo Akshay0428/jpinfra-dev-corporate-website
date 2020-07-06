@@ -15,6 +15,9 @@
    video#myVideo {
    width: 100%;
    }
+   .blogs-here a {
+    color: #333 !important;
+   }
    /**********************
    slick slider
    ***********************/
@@ -180,7 +183,7 @@
          </span>
          <span class="blogs-here-overlay"></span>
          </a>
-         <h5><?php the_title(); ?></h5>
+         <h5><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h5>
          <p><?php echo the_field('date'); ?></p>
       </div>
       <?php endwhile; ?>
