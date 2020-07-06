@@ -8,7 +8,8 @@
       <div class="clearfix"></div>
    </div>
    <div class="blog-banner">
-      <img src="img/blog/blog_banner.jpg" alt="blog_banner">
+      <img src="img/blog/blog_banner.jpg" class="m_hide" alt="blog_banner">
+      <img src="img/blog/Blog-Banner-mob.jpg" class="d_hide" alt="blog_banner">
       <div class="blog-box">
          <div class="lable_line"><img src="img/Gray-Head-line.png" class="northimage"></div>
          <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="aos-init aos-animate">Blog</h1>
