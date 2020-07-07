@@ -440,6 +440,7 @@
       </div>
         
       <div class="jp-north-page-living-space-slider-main mob-wid width-100 margin-top responsivepro">
+        
         <div class="np-living-space-slider float-left">
           <div class="inner-div-np pos-relative">
             <img src="img/jpnorthpage/new/NGC-1.jpg" alt="slide1">
@@ -489,24 +490,26 @@
         <div class="np-living-space-slider float-left slider-padding">
           <div class="inner-div-np pos-relative">
             <img src="img/jpnorthpage/new/Hotcake.jpg" alt="Codename-Hotcake">
-            <!-- <img src="img/slider_mob2.jpg" class="d_hide" alt="Codename-Hotcake"> -->
+            <!-- <img src="img/jpnorthpage/gardencity.jpg" class="d_hide" alt="slide1"> -->
             <a href="http://www.jpinfra.com/codenamehotcake/" target="_blank" class="m_hide">
               <div class="np-bl-patch pos-absolute">
                 <div class="ols-text">
-                  <p class="ols-p txt-transform">1 & 2 BHK Affordable Homes<br>
+                  <p class="ols-p txt-transform">
+                    1 & 2 BHK Affordable Homes<br>
                     Acupressure Walkway<br>
                     Steam and Sauna<br>
                     Recreation and Play Area
                   </p>
                 </div>
               </div>
-            </a> 
-            <div class="np-bl-patch pos-absolute" class="d_hide">
+            </a>
+            <div class="np-bl-patch pos-absolute d_hide">
               <div class="ols-text">
-                <p class="ols-p txt-transform">1 & 2 BHK Affordable Homes<br>
-                  Acupressure Walkway<br>
-                  Steam and Sauna<br>
-                  Recreation and Play Area
+                <p class="ols-p txt-transform">
+                  1 & 2 BHK Affordable Homes<br>
+                    Acupressure Walkway<br>
+                    Steam and Sauna<br>
+                    Recreation and Play Area
                 </p>
               </div>
             </div>
@@ -531,128 +534,135 @@
         <div class="np-living-space-slider float-left slider-padding">
           <div class="inner-div-np pos-relative">
             <img src="img/jpnorthpage/new/Open-Streets.jpg" alt="Codename-Open-Streets">
-            <!-- <img src="img/slider_mob3.jpg" class="d_hide" alt="slide3"> -->
-              <a href="http://www.jpinfra.com/codenameopenstreets/" target="_blank" class="m_hide">
-                <div class="np-bl-patch pos-absolute">
-                  <div class="ols-text">
-                    <p class="ols-p txt-transform">Spacious 1, 2 & 3 BHK<br>
-                      Game Hub<br>
-                      Vehicle Free Zones  <br>
-                      Clubhouse
-                    </p>
-                  </div>
-                </div>
-              </a>
-              <div class="np-bl-patch pos-absolute" class="d_hide">
+            <!-- <img src="img/jpnorthpage/gardencity.jpg" class="d_hide" alt="slide1"> -->
+            <a href="http://www.jpinfra.com/codenameopenstreets/" target="_blank" class="m_hide">
+              <div class="np-bl-patch pos-absolute">
                 <div class="ols-text">
                   <p class="ols-p txt-transform">
                     Spacious 1, 2 & 3 BHK<br>
-                    Game Hub<br>
-                    Vehicle Free Zones  <br>
-                    Clubhouse
+                      Game Hub<br>
+                      Vehicle Free Zones  <br>
+                      Clubhouse
                   </p>
                 </div>
               </div>
-              <div class="inner-div-np-text pos-absolute">
-                <h5>Codename Open Streets</h5>
+            </a>
+            <div class="np-bl-patch pos-absolute d_hide">
+              <div class="ols-text">
+                <p class="ols-p txt-transform">
+                  Spacious 1, 2 & 3 BHK<br>
+                      Game Hub<br>
+                      Vehicle Free Zones  <br>
+                      Clubhouse
+                </p>
               </div>
-              <p class="pos-absolute ls-p p-deliver">Artist's Impression</p>
             </div>
-            <div class="button-np project-property-button d_hide">
-              <a href="http://www.jpinfra.com/codenameopenstreets/"  target="_blank">
-                <div class="know-text-project-property">
-                  <h5>Know More</h5>
-                </div>
-              </a>
-              <div class="know-arrow-project-property">
-                <img src="img/Project Button Arrow.png" class="know-arrow-property" alt="arrow">
+            <div class="inner-div-np-text pos-absolute">
+              <h5>Codename Open Streets</h5>
+            </div>
+            <p class="pos-absolute ls-p p-deliver">Artist's Impression</p>
+          </div>
+          <div class="button-np project-property-button d_hide">
+            <a href="http://www.jpinfra.com/codenameopenstreets/"  target="_blank">
+              <div class="know-text-project-property">
+                <h5>Know More</h5>
               </div>
-              <div class="clearfix"></div>
+            </a>
+            <div class="know-arrow-project-property">
+              <img src="img/Project Button Arrow.png" class="know-arrow-property" alt="arrow">
             </div>
+            <div class="clearfix"></div>
+          </div>
         </div>
         
         <div class="np-living-space-slider float-left slider-padding">
-            <div class="inner-div-np pos-relative">
-              <img src="img/jpnorthpage/new/Celeste.jpg" alt="slide4">
-              <!-- <img src="img/jpnorthpage/celeste.jpg" class="d_hide" alt="slide4"> -->
-              <a href="north_celeste.php" target="_blank" class="m_hide">
-                <div class="np-bl-patch pos-absolute">
-                  <div class="ols-text">
-                    <p class="ols-p txt-transform">Spanish- styled 1 & 2 BHK<br>
+          <div class="inner-div-np pos-relative">
+            <img src="img/jpnorthpage/new/Celeste.jpg" alt="Celeste">
+            <!-- <img src="img/jpnorthpage/gardencity.jpg" class="d_hide" alt="slide1"> -->
+            <a href="north_celeste.php" target="_blank" class="m_hide">
+              <div class="np-bl-patch pos-absolute">
+                <div class="ols-text">
+                  <p class="ols-p txt-transform">
+                    Spanish- styled 1 & 2 BHK<br>
+                      Wifi Zone<br>
+                      Amphitheatre<br>
+                      Library Cafe 
+                  </p>
+                </div>
+              </div>
+            </a>
+            <div class="np-bl-patch pos-absolute d_hide">
+              <div class="ols-text">
+                <p class="ols-p txt-transform">
+                  Spanish- styled 1 & 2 BHK<br>
                       Wifi Zone<br>
                       Amphitheatre<br>
                       Library Cafe
-                    </p>
-                  </div>
-                 </div>
-              </a>
-              <div class="np-bl-patch pos-absolute" class="d_hide">
-                <div class="ols-text">
-                  <p class="ols-p txt-transform">Spanish- styled 1 & 2 BHK<br>
-                    Wifi Zone<br>
-                    Amphitheatre<br>
-                    Library Cafe
-                  </p>
-                </div>
+                </p>
               </div>
-              <div class="inner-div-np-text pos-absolute">
-                <h5>North Celeste</h5>
-              </div>
-              <p class="pos-absolute ls-p p-deliver">Actual Image</p>
             </div>
-            <div class="button-np project-property-button d_hide">
-              <a href="north_celeste.php"  target="_blank">
-                <div class="know-text-project-property">
-                  <h5>Know More</h5>
-                </div>
-              </a>
-              <div class="know-arrow-project-property">
-                <img src="img/Project Button Arrow.png" class="know-arrow-property" alt="arrow">
-              </div>
-              <div class="clearfix"></div>
+            <div class="inner-div-np-text pos-absolute">
+              <h5>North Celeste</h5>
             </div>
+            <p class="pos-absolute ls-p p-deliver">Actual Image</p>
+          </div>
+          <div class="button-np project-property-button d_hide">
+            <a href="north_celeste.php"  target="_blank">
+              <div class="know-text-project-property">
+                <h5>Know More</h5>
+              </div>
+            </a>
+            <div class="know-arrow-project-property">
+              <img src="img/Project Button Arrow.png" class="know-arrow-property" alt="arrow">
+            </div>
+            <div class="clearfix"></div>
+          </div>
         </div>
+
         <div class="np-living-space-slider float-left">
-            <div class="inner-div-np pos-relative">
-              <img src="img/jpnorthpage/new/Now-or-Never.jpg" alt="slide5">
-              <!-- <img src="img/jpnorthpage/donald.jpg" class="d_hide" alt="slide5"> -->
-              <a href="http://www.jpinfra.com/jp-north/codenamenowornever/" target="_blank" class="m_hide">
-                <div class="np-bl-patch pos-absolute">
-                  <div class="ols-text">
-                    <p class="ols-p txt-transform">Affordable 1 Bed Homes<br>
+          <div class="inner-div-np pos-relative">
+            <img src="img/jpnorthpage/new/Now-or-Never.jpg" alt="Now-or-Never">
+            <!-- <img src="img/jpnorthpage/gardencity.jpg" class="d_hide" alt="slide1"> -->
+            <a href="http://www.jpinfra.com/jp-north/codenamenowornever/" target="_blank" class="m_hide">
+              <div class="np-bl-patch pos-absolute">
+                <div class="ols-text">
+                  <p class="ols-p txt-transform">
+                    Affordable 1 Bed Homes<br>
                       Sports Arena<br>
                       Shopping Arcade<br>
                        Open-to-Sky Swimming Pool
-                    </p>
-                  </div>
-                </div>
-              </a>
-              <div class="np-bl-patch pos-absolute" class="d_hide">
-                <div class="ols-text">
-                  <p class="ols-p txt-transform">Affordable 1 Bed Homes<br>
-                    Sports Arena<br>
-                    Shopping Arcade<br>
-                    Open-to-Sky Swimming Pool
                   </p>
                 </div>
               </div>
-              <div class="inner-div-np-text pos-absolute">
-                <h5>Codename Now Or Never</h5>
+            </a>
+            <div class="np-bl-patch pos-absolute d_hide">
+              <div class="ols-text">
+                <p class="ols-p txt-transform">
+                  Affordable 1 Bed Homes<br>
+                      Sports Arena<br>
+                      Shopping Arcade<br>
+                       Open-to-Sky Swimming Pool
+                </p>
               </div>
-              <p class="pos-absolute ls-p p-deliver">Artist's Impression</p>
             </div>
-            <div class="button-np project-property-button d_hide">
-              <a href="http://www.jpinfra.com/jp-north/codenamenowornever/"  target="_blank">
-                <div class="know-text-project-property">
-                  <h5>Know More</h5>
-                </div>
-              </a>
-              <div class="know-arrow-project-property">
-                <img src="img/Project Button Arrow.png" class="know-arrow-property" alt="arrow">
+            <div class="inner-div-np-text pos-absolute">
+              <h5>Codename Now Or Never</h5>
+            </div>
+            <p class="pos-absolute ls-p p-deliver">Artist's Impression</p>
+          </div>
+          <div class="button-np project-property-button d_hide">
+            <a href="http://www.jpinfra.com/jp-north/codenamenowornever/"  target="_blank">
+              <div class="know-text-project-property">
+                <h5>Know More</h5>
               </div>
-              <div class="clearfix"></div>
+            </a>
+            <div class="know-arrow-project-property">
+              <img src="img/Project Button Arrow.png" class="know-arrow-property" alt="arrow">
             </div>
+            <div class="clearfix"></div>
+          </div>
         </div>
+        
       </div>
       <div class="clearfix"></div>
         <!--         <h6 class="jp-north-page-subheading tx-align d_hide" data-aos="fade-down" data-aos-duration="3000">Each of our projects have more than 30 amenities for you to spend your evenings and weekends.  Generously built sports arenas for the family, hat allow the kids to stay entertained for hours, themed gardens that allow for meditation and children’s play and mini-theatres to watch the latest movie are just a few of the world-class amenities available</h6> -->
