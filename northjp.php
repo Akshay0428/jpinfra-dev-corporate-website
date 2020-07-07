@@ -444,7 +444,7 @@
           <div class="inner-div-np pos-relative">
             <img src="img/jpnorthpage/new/NGC-1.jpg" alt="slide1">
             <!-- <img src="img/jpnorthpage/gardencity.jpg" class="d_hide" alt="slide1"> -->
-            <a href="https://www.jpinfra.com/jp-north/gardencity/" target="blank" class="m_hide">
+            <a href="https://www.jpinfra.com/jp-north/gardencity/" target="_blank" class="m_hide">
               <div class="np-bl-patch pos-absolute">
                 <div class="ols-text">
                   <p class="ols-p txt-transform">
@@ -474,7 +474,7 @@
             <p class="pos-absolute ls-p p-deliver">Rendered Image</p>
           </div>
           <div class="button-np project-property-button d_hide">
-            <a href="https://www.jpinfra.com/jp-north/gardencity/"  target="blank">
+            <a href="https://www.jpinfra.com/jp-north/gardencity/"  target="_blank">
               <div class="know-text-project-property">
                 <h5>Know More</h5>
               </div>
@@ -485,11 +485,12 @@
             <div class="clearfix"></div>
           </div>
         </div>
+
         <div class="np-living-space-slider float-left slider-padding">
           <div class="inner-div-np pos-relative">
             <img src="img/jpnorthpage/new/Hotcake.jpg" alt="Codename-Hotcake">
             <!-- <img src="img/slider_mob2.jpg" class="d_hide" alt="Codename-Hotcake"> -->
-            <a href="http://www.jpinfra.com/codenamehotcake/" target="blank" class="m_hide">
+            <a href="http://www.jpinfra.com/codenamehotcake/" target="_blank" class="m_hide">
               <div class="np-bl-patch pos-absolute">
                 <div class="ols-text">
                   <p class="ols-p txt-transform">1 & 2 BHK Affordable Homes<br>
@@ -515,7 +516,7 @@
             <p class="pos-absolute ls-p p-deliver">Artist's Impression</p>
           </div>
           <div class="button-np project-property-button d_hide">
-            <a href="http://www.jpinfra.com/codenamehotcake/"  target="blank">
+            <a href="http://www.jpinfra.com/codenamehotcake/"  target="_blank">
               <div class="know-text-project-property">
                 <h5>Know More</h5>
               </div>
@@ -526,11 +527,12 @@
             <div class="clearfix"></div>
           </div>
         </div>
+
         <div class="np-living-space-slider float-left slider-padding">
           <div class="inner-div-np pos-relative">
             <img src="img/jpnorthpage/new/Open-Streets.jpg" alt="Codename-Open-Streets">
             <!-- <img src="img/slider_mob3.jpg" class="d_hide" alt="slide3"> -->
-              <a href="http://www.jpinfra.com/codenameopenstreets/" target="blank" class="m_hide">
+              <a href="http://www.jpinfra.com/codenameopenstreets/" target="_blank" class="m_hide">
                 <div class="np-bl-patch pos-absolute">
                   <div class="ols-text">
                     <p class="ols-p txt-transform">Spacious 1, 2 & 3 BHK<br>
@@ -557,7 +559,7 @@
               <p class="pos-absolute ls-p p-deliver">Artist's Impression</p>
             </div>
             <div class="button-np project-property-button d_hide">
-              <a href="http://www.jpinfra.com/codenameopenstreets/"  target="blank">
+              <a href="http://www.jpinfra.com/codenameopenstreets/"  target="_blank">
                 <div class="know-text-project-property">
                   <h5>Know More</h5>
                 </div>
@@ -568,11 +570,12 @@
               <div class="clearfix"></div>
             </div>
         </div>
+        
         <div class="np-living-space-slider float-left slider-padding">
             <div class="inner-div-np pos-relative">
               <img src="img/jpnorthpage/new/Celeste.jpg" alt="slide4">
               <!-- <img src="img/jpnorthpage/celeste.jpg" class="d_hide" alt="slide4"> -->
-              <a href="north_celeste.php" target="blank" class="m_hide">
+              <a href="north_celeste.php" target="_blank" class="m_hide">
                 <div class="np-bl-patch pos-absolute">
                   <div class="ols-text">
                     <p class="ols-p txt-transform">Spanish- styled 1 & 2 BHK<br>
@@ -598,7 +601,7 @@
               <p class="pos-absolute ls-p p-deliver">Actual Image</p>
             </div>
             <div class="button-np project-property-button d_hide">
-              <a href="north_celeste.php"  target="blank">
+              <a href="north_celeste.php"  target="_blank">
                 <div class="know-text-project-property">
                   <h5>Know More</h5>
                 </div>
@@ -613,7 +616,7 @@
             <div class="inner-div-np pos-relative">
               <img src="img/jpnorthpage/new/Now-or-Never.jpg" alt="slide5">
               <!-- <img src="img/jpnorthpage/donald.jpg" class="d_hide" alt="slide5"> -->
-              <a href="http://www.jpinfra.com/jp-north/codenamenowornever/" target="blank" class="m_hide">
+              <a href="http://www.jpinfra.com/jp-north/codenamenowornever/" target="_blank" class="m_hide">
                 <div class="np-bl-patch pos-absolute">
                   <div class="ols-text">
                     <p class="ols-p txt-transform">Affordable 1 Bed Homes<br>
@@ -639,7 +642,7 @@
               <p class="pos-absolute ls-p p-deliver">Artist's Impression</p>
             </div>
             <div class="button-np project-property-button d_hide">
-              <a href="http://www.jpinfra.com/jp-north/codenamenowornever/"  target="blank">
+              <a href="http://www.jpinfra.com/jp-north/codenamenowornever/"  target="_blank">
                 <div class="know-text-project-property">
                   <h5>Know More</h5>
                 </div>
@@ -839,7 +842,7 @@
             </div>
             <!--btn-->
             <div class="project-property-button ">
-                <a href="https://www.dotwisedigital.com/jpuat/contact.php" target="blank">
+                <a href="https://www.dotwisedigital.com/jpuat/contact.php" target="_blank">
                     <div class="know-text-project-property">
                     <h5>Know More</h5>
                 </div>

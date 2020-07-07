@@ -1024,7 +1024,7 @@ transition:all .6s ease-in-out;
             </div>
             <div class="col-md-8 main-abt-slider">
               	<div class="col-md-4">
-	                <a href="unity_towers.php" target="blank">
+	                <a href="unity_towers.php" target="_blank">
 	                  <div class="delivered-projects-carousel">
 	                    <div class="abt-jp-slider">
 	                        <div class="abt-slide pos-relative">
@@ -1040,7 +1040,7 @@ transition:all .6s ease-in-out;
 	                </a>
               	</div>
               	<div class="col-md-4">
-	                <a href="jpdecks.php" target="blank">
+	                <a href="jpdecks.php" target="_blank">
 	                  <div class="delivered-projects-carousel">
 	                    <div class="abt-jp-slider">
 	                        <div class="abt-slide pos-relative">
@@ -1056,7 +1056,7 @@ transition:all .6s ease-in-out;
 	                </a>
               	</div>
               	<div class="col-md-4">
-	                <a href="chalet_amar.php" target="blank">
+	                <a href="chalet_amar.php" target="_blank">
 	                  <div class="delivered-projects-carousel">
 	                    <div class="abt-jp-slider">
 	                        <div class="abt-slide pos-relative">
@@ -1072,7 +1072,7 @@ transition:all .6s ease-in-out;
 	                </a>
               	</div>
               	<div class="col-md-4">
-	                <a href="north_celeste.php" target="blank">
+	                <a href="north_celeste.php" target="_blank">
 	                  <div class="delivered-projects-carousel">
 	                    <div class="abt-jp-slider">
 	                        <div class="abt-slide pos-relative">
@@ -1088,7 +1088,7 @@ transition:all .6s ease-in-out;
 	                </a>
               	</div>
               	<div class="col-md-4">
-	                <a href="atria.php" target="blank">
+	                <a href="atria.php" target="_blank">
 	                  <div class="delivered-projects-carousel">
 	                    <div class="abt-jp-slider">
 	                        <div class="abt-slide pos-relative">
@@ -1104,7 +1104,7 @@ transition:all .6s ease-in-out;
 	                </a>
               	</div>               
               	<div class="col-md-4">
-	                <a href="estella.php" target="blank">
+	                <a href="estella.php" target="_blank">
 	                  <div class="delivered-projects-carousel">
 	                    <div class="abt-jp-slider">
 	                        <div class="abt-slide pos-relative">
@@ -1120,7 +1120,7 @@ transition:all .6s ease-in-out;
 	                </a>
               	</div>
               	<div class="col-md-4">
-	                <a href="dream_land_apartment.php" target="blank">
+	                <a href="dream_land_apartment.php" target="_blank">
 	                  <div class="delivered-projects-carousel">
 	                    <div class="abt-jp-slider">
 	                        <div class="abt-slide pos-relative">
@@ -1257,7 +1257,7 @@ transition:all .6s ease-in-out;
         </div>
         <div class="clearfix"></div>
         <div class="jp-button main-know-btn">
-          <a href="https://www.jpinfra.com/pushing-boundaries.php" target="blank">
+          <a href="https://www.jpinfra.com/pushing-boundaries.php" target="_blank">
             <div class="know-text-jp main-know-text">
               <h5>Know More</h5>
             </div>
@@ -1288,7 +1288,7 @@ transition:all .6s ease-in-out;
        <!--btn-->
        <div class="jplife-button">
           <div class="know-text-jplife">
-             <h5><a href="northjp.php" target="blank" class="jpahref">Know More</a></h5>
+             <h5><a href="northjp.php" target="_blank" class="jpahref">Know More</a></h5>
           </div>
           <div class="know-arrow-jplife">
              <img src="img/Project-arrow-white.png" class="know-arrow-img-jplife" alt="arrow">
@@ -1315,7 +1315,7 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
        <!--btn-->
        <div class="jplife-button">
           <div class="know-text-jplife">
-             <h5><a href="northjp.php" target="blank" class="jpahref">Know More</a></h5>
+             <h5><a href="northjp.php" target="_blank" class="jpahref">Know More</a></h5>
           </div>
           <div class="know-arrow-jplife">
              <img src="img/Project-arrow-white.png" class="know-arrow-img-jplife" alt="arrow">

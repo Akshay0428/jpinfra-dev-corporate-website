@@ -25,7 +25,7 @@
 <div class="container_main bg-3 text-center wow fadeIn redev-mrg" data-wow-duration="4s" style="visibility: visible; animation-duration: 4s; animation-name: fadeIn;">
    <div class="wwu-main">
       <div class="lable_line"><img src="img/Gray-Head-line.png" class="northimage"></div>
-      <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="txt-transform">projects redeveloped</h1>
+      <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500" class="txt-transform">Redefining Real Estate</h1>
    </div>
    <div class="main-func">
       <div class="proj_heading">
