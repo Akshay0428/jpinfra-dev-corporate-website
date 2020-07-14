@@ -197,7 +197,7 @@ JP Infra believes in bringing serenity back to the bustling and busy nature of t
         <h1 class="texttransform" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">our redevelopment projects</h1>
         <p class="txt-align fontweight redevelopment-p" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">JP Infra through its redeveloped projects have taken the first step towards sustainable living and maintaining ecological balance making the residents proud eco-warriors.</p>
         <div class="abtpage-btn">
-          <a href="redevelopment_projects.php">
+          <a href="redefining-real-estate.php">
             <div class="abtpaebtn-txt">know more</div>
           </a>
           
