@@ -4207,6 +4207,15 @@ Footer
 	background-color: #2E5689;
 	padding: 40px 0px;
 }
+#section-foot {
+  width: auto;
+  height: auto;
+  word-wrap: break-word;
+}
+
+.moretext-foot {
+  display: none;
+}
 
 .boxes {
 	width: 33.33%;
