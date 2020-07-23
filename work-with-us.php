@@ -16,7 +16,7 @@
    <div class="container_main bg-3 text-center wow fadeIn" data-wow-duration="4s" style="visibility: visible; animation-duration: 4s; animation-name: fadeIn;">
         <div class="wwu-main" id="link_wwu">
             <div class="lable_line"><img src="img/Gray-Head-line.png" class="northimage"></div>
-            <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Work With Us</h1>
+            <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">Careers</h1>
             <p class="fontweight" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">JP Infra has proven to be a brand to watch in the Real Estate space, especially of the Mumbai suburban market. Achieving tremendous growth over a little more than a decade, JP Infra boasts of an employee strength that’s equally strong. Our employees get the best opportunities in training and exercising their skill set. We believe in providing a happy, healthy work environment that encourages team bonding, nurture’s individual goals and allows for a fun and safe working culture.<a href="media.php#mediapage_link"> Take a look at some of our fun times in the office environment on our Media section.</a></p>
         </div>
     </div>

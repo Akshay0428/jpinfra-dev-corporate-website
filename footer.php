@@ -5,7 +5,7 @@
       <div class="box-inner">
         <a href="nri_corner.php"> <h1 class="txt-upper">nri corner</h1></a>
         <a href="nri_corner.php#link_opportunities"> <h5 class="txt-transform border_btm">NRI opportunities</h5></a>
-        <a href="nri_corner.php#link_faq"> <h5>NRI FAQS</h5></a>
+        <a href="nri_corner.php#link_faq"> <h5>NRI Frequently Asked Questions</h5></a>
       </div>
     </div>
     <div class="boxes">
@@ -13,7 +13,7 @@
         <div class="bl-fo-line d_hide"></div>
         <div class="box-inner">
           <a href="work-with-us.php"> <h1 class="txt-upper">work with us</h1></a>
-          <a href="work-with-us.php#link_wwu"> <h5 class="txt-transform border_btm">work with us</h5></a>
+          <a href="work-with-us.php#link_wwu"> <h5 class="txt-transform border_btm">Careers</h5></a>
           <a href="work-with-us.php#position-available"> <h5 class="txt-transform">position available</h5></a>
         </div>
         

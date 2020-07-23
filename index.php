@@ -12,6 +12,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.min.js"></script>   
   <link rel="stylesheet" href="css/otherprojslider.css">
   <style>
+
+/* Important part */
+.modal{
+    display: block !important;
+}
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 250px;
+    overflow-y: auto;
+}
+
     video#myVideo {
     width: 100%;
   }
@@ -373,7 +386,7 @@ transition:all .6s ease-in-out;
   <div class="content-div" id="">
    	<div class="numbers-div border-ryt">
       <div class="number-content">
-        <h1>1200 +</h1>
+        <h1>1200+</h1>
       </div>
       <div class="number-content">
         <p>APARTMENTS DELIVERED<br>IN FY 19-20</p>
@@ -382,16 +395,16 @@ transition:all .6s ease-in-out;
     </div>
     <div class="numbers-div border-ryt">
       <div class="number-content">
-        <h1 class="pad-counter">14 +</h1>
+        <h1 class="pad-counter">14+</h1>
       </div>
       <div class="number-content">
-        <p>YEARS OF GROWTH</p>
+        <p>YEARS OF GROWTH</p><br>
       </div>
       <div class="clearfix"></div>
     </div>
     <div class="numbers-div border-ryt">
       <div class="number-content">
-        <h1>4 +</h1>
+        <h1>4+</h1>
       </div>
       <div class="number-content">
         <p>MN SQFT<br>UNDER<br>CONSTRUCTION</p>
@@ -400,7 +413,7 @@ transition:all .6s ease-in-out;
     </div>
     <div class="numbers-div">
       <div class="number-content">
-        <h1 class="pad-counter">5000 +</h1>
+        <h1 class="pad-counter">5000+</h1>
       </div>
       <div class="number-content">
         <p>HAPPY <br>CUSTOMERS</p>
@@ -420,7 +433,7 @@ transition:all .6s ease-in-out;
     <div class="carousel-inner content-div slick-counter-mobile">
       <div class="item active numbers-div">
         <div class="number-content">
-          <h1>1200 +</h1>
+          <h1>1200+</h1>
         </div>
         <div class="number-content">
           <p>APARTMENTS DELIVERED<br>IN FY 19-20</p>
@@ -428,7 +441,7 @@ transition:all .6s ease-in-out;
       </div>
       <div class="item numbers-div">
         <div class="number-content">
-          <h1 class="pad-counter">14 +</h1>
+          <h1 class="pad-counter">14+</h1>
         </div>
         <div class="number-content">
           <p>YEARS OF GROWTH</p>
@@ -436,7 +449,7 @@ transition:all .6s ease-in-out;
       </div>
       <div class="item numbers-div">
         <div class="number-content">
-          <h1>4 +</h1>
+          <h1>4+</h1>
         </div>
         <div class="number-content">
           <p>MN SQFT<br>UNDER<br>CONSTRUCTION</p>
@@ -444,7 +457,7 @@ transition:all .6s ease-in-out;
       </div>
       <div class="item numbers-div">
         <div class="number-content">
-          <h1>5000 +</h1>
+          <h1>5000+</h1>
         </div>
         <div class="number-content">
           <p>HAPPY <br>CUSTOMERS</p>
@@ -1409,9 +1422,9 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
                                        </div>
                                        <div class="swiper-slide__block__text">
                                           <h2 data-swiper-parallax-x="-60%" class="main__title">Codename Now or Never</h2>
-                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle">North Garden City, Mira Road</h4>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">ANOTHER NORTHERN DELIGHT</h3>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">1 Bed Homes</h3>
+                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle1">North Garden City, Mira Road</h4>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle2">ANOTHER NORTHERN DELIGHT</h3>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle3">1 Bed Homes</h3>
                                          <!--  <p data-swiper-parallax-x="-40%" class="paragraphe">Experience the finer things in life at Codename Now or Never and live life in style. A perfect blend of all things sweet, spicy and sour, it is sure to keep all your taste buds and preferences happy and satisfied.</p> -->
                                          <p data-swiper-parallax-x="-40%" class="paragraphe">With Codename Now or Never, JP Infra has redefined affordable luxury and expanded its range of great living spaces with an attractive offering of a 1 Bed home that caters to both your physical as well as spiritual living needs. With several unique features in its compact and thoughtful design, Codename Now or Never invites you to upgrade to a life of no more compromises.</p>
                                           <!--<a data-swiper-parallax-x="-30%" class="link" target="_blank" href="#">Discover</a>-->
@@ -1430,9 +1443,9 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
                                        </div>
                                        <div class="swiper-slide__block__text">
                                           <h2 data-swiper-parallax-x="-60%" class="main__title">Codename Hotcake</h2>
-                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle">North, Mira Road</h4>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">HOT SPACE, HOT SECURITY, HOT AMENITIES</h3>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">1 & 2 BHK</h3>
+                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle1">North, Mira Road</h4>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle2">HOT SPACE, HOT SECURITY, HOT AMENITIES</h3>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle3">1 & 2 BHK</h3>
                                           <p data-swiper-parallax-x="-40%" class="paragraphe">Smartly planned, with every brick crafted to perfection, Codename Hotcake is styled to fulfil every need of your dream home. Equipped with the latest technology and necessities close at hand, Codename Hotcake aspires to make the experience at Mira Road better than your dreams.</p>
                                           <!--<a data-swiper-parallax-x="-30%" class="link" target="_blank" href="#">Discover</a>-->
                                           <span data-swiper-parallax-y="60%" class="number">2</span>
@@ -1450,9 +1463,9 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
                                        </div>
                                        <div class="swiper-slide__block__text">
                                           <h2 data-swiper-parallax-x="-60%" class="main__title">Codename Open Streets</h2>
-                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle">North, Mira Road</h4>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">INSPIRED BY THE EUROPEAN CITY OF BARCELONA</h3>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">1,2,3, BHK</h3>
+                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle1">North, Mira Road</h4>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle2">INSPIRED BY THE EUROPEAN CITY OF BARCELONA</h3>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle3">1,2,3, BHK</h3>
                                           <p data-swiper-parallax-x="-40%" class="paragraphe">Harmonizing nature, luxuries and convenience in European style, Codename Open Streets provides a grand lifestyle. Well-connected and equipped with the latest amenities, Mira Road's JP North offers homes loved by one and all.</p>
                                           <!--<p data-swiper-parallax-x="-40%" class="paragraphe">A Niche Above The Rest, Lets One Indulge In Luxury And Treat Oneself To The Very Best At Lokhandwala, Andheri – Mumbai</p>       -->
                                           <!--<a data-swiper-parallax-x="-30%" style="z-index: 5;" class="link" target="_blank" href="#">Discover</a>-->
@@ -1471,9 +1484,9 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
                                        </div>
                                        <div class="swiper-slide__block__text">
                                           <h2 data-swiper-parallax-x="-60%" class="main__title">Elara</h2>
-                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle">North Garden City, Mira Road</h4>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">UNOBSTRUCTED LUSH GREEN VIEWS</h3>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">1 & 2 Bed Homes, 1 & 2 BHK</h3>
+                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle1">North Garden City, Mira Road</h4>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle2">UNOBSTRUCTED LUSH GREEN VIEWS</h3>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle3">1 & 2 Bed Homes, 1 & 2 BHK</h3>
                                           <p data-swiper-parallax-x="-40%" class="paragraphe">Nestled in lush green surroundings, JP North's Elara offers a home that goes beyond the 4 walls of your room. Situated in the heart of nature, it is well connected to both the Eastern & Western routes of the city. Equipped with a vast range of amenities, Elara provides you with a well rounded & tranquil lifestyle.</p>
                                           <!--<p data-swiper-parallax-x="-40%" class="paragraphe">A Niche Above The Rest, Lets One Indulge In Luxury And Treat Oneself To The Very Best At Lokhandwala, Andheri – Mumbai</p>       -->
                                           <!--<a data-swiper-parallax-x="-30%" style="z-index: 5;" class="link" target="_blank" href="#">Discover</a>-->
@@ -1492,10 +1505,10 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
                                        </div>
                                        <div class="swiper-slide__block__text">
                                           <h2 data-swiper-parallax-x="-60%" class="main__title">Euphoria</h2>
-                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle">North Garden City, Mira Road</h4>
+                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle1">North Garden City, Mira Road</h4>
                                           <!-- <h3 data-swiper-parallax-x="-50%" class="main__subtitle">A HAVEN OF PURE BLISS AND DELIGHT</h3> -->
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">SPLENDOUS HOMES IN IMPECCABLE SURROUNDINGS</h3>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">2 & 3 BHK</h3>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle2">SPLENDOUS HOMES IN IMPECCABLE SURROUNDINGS</h3>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle3">2 & 3 BHK</h3>
                                           <!-- <p data-swiper-parallax-x="-40%" class="paragraphe">JP North’s Euphoria offers a lifestyle where you are in touch with nature everyday, encompassing all the requisites of a perfect dream home. It provides an ambience brimming with restaurants, salons, top-notch institutes and various other lifestyle conveniences.</p> -->
                                           <p data-swiper-parallax-x="-40%" class="paragraphe">JP Infra offers you green landscapes and a host of amenities with this remarkable tower. JP North's Euphoria is an address reserved for the finest few with a grand double height entrance lobby leading to individual decks, glass facades and elite 2 and 3 BHK homes designed to make you never want to leave.</p>
                                           <!--<a data-swiper-parallax-x="-30%" class="link" target="_blank" href="#">Discover</a>-->
@@ -1514,9 +1527,9 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
                                        </div>
                                        <div class="swiper-slide__block__text">
                                           <h2 data-swiper-parallax-x="-60%" class="main__title">Alexa</h2>
-                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle">North Garden City, Mira Road</h4>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">AN OASIS OF LUXURY IN THE HEART OF MIRA ROAD</h3>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">1 BHK</h3>
+                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle1">North Garden City, Mira Road</h4>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle2">AN OASIS OF LUXURY IN THE HEART OF MIRA ROAD</h3>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle3">1 BHK</h3>
                                           <p data-swiper-parallax-x="-40%" class="paragraphe">Designed to provide a myriad of experiences, JP North's Alexa is set to incorporate tranquillity and serenity of nature into your lifestyle. Blended with all the latest amenities and everyday facilities, experience the futuristic lifestyle for the futuristic life at JP North Alexa.</p>
                                           <!--<a data-swiper-parallax-x="-30%" class="link" target="_blank" href="#">Discover</a>-->
                                           <span data-swiper-parallax-y="60%" class="number">6</span>
@@ -1534,9 +1547,9 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
                                        </div>
                                        <div class="swiper-slide__block__text">
                                           <h2 data-swiper-parallax-x="-60%" class="main__title">Altus</h2>
-                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle">Worli</h4>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">UNOBSTRUCTED 270 DEGREE VIEW OF CITY SKYLINE</h3>
-                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle">3 BHK</h3>
+                                          <h4 data-swiper-parallax-x="-50%" class="main__subtitle1">Worli</h4>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle2">UNOBSTRUCTED 270 DEGREE VIEW OF CITY SKYLINE</h3>
+                                          <h3 data-swiper-parallax-x="-50%" class="main__subtitle3">3 BHK</h3>
                                           <p data-swiper-parallax-x="-40%" class="paragraphe">Situated in the heart of the city, Altus offers stunning views of the city skyline merging with the serene horizon of the Arabian Sea. Equipped with all the latest amenities, Altus’s strategic location offers easy connectivity to all major business hubs and several well-known recreational spaces.</p>
                                           <!--<p data-swiper-parallax-x="-40%" class="paragraphe">30+ OUTDOOR</p>-->
                                           <!--<p data-swiper-parallax-x="-40%" class="paragraphe">Amenities to keep you Healthy & Fit</p>-->
@@ -2082,6 +2095,85 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
       </div>
    </div>
 </div>
+
+ <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Open Modal</button> -->
+
+<!-- <div class="modal fade" id="myModal2" role="dialog">
+	<div class="modal-dialog" style="max-width: 600px;"> -->
+
+		<!-- Modal content-->
+<!-- 		<div class="modal-content">
+			<div class="modal-header" style="background: #0071bc;color: #fff;text-align: left;border-top-left-radius: 4px;
+    border-top-right-radius: 4px;">
+				<h4 class="modal-title" style="font-size: 20px;font-family: roboto;">Agreement</h4>
+			</div>
+			<div class="modal-body">
+				<p style="font-size: 14px;color: #4a4747;font-family: roboto;line-height: 23px;margin-bottom: 0px;padding: 0px 15px 0px;height: 200px;overflow-y: scroll;text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				<div class="text-center">
+					<button type="button" class="btn btn-default" data-dismiss="modal" style="background: #0071bc;color: #fff;
+    padding: 7px 21px;margin-top: 30px;margin-bottom: 15px;">I Agree</button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+ -->
+
+
+<!-- <div class="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog" style="overflow-y: scroll; max-height:85%;  margin-top: 50px; margin-bottom:50px;" > 
+        <div class="modal-content"> 
+            <div class="modal-header"> 
+                <h3 class="modal-title">ASDFASDFASDFASDF</h3> 
+            </div> 
+            <div class="modal-body">ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
+          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
+          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
+          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
+          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
+          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
+          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
+          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
+          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
+          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
+          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
+          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF</div> 
+          <div class="modal-footer"> -->
+        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+      <!-- </div>
+        </div> 
+    </div> 
+</div>  -->
+
+<!-- 	<div id="modalOverlay">
+		<div class="modalPopup">
+			<div class="modalContent">
+					<h1>DISCLAIMER & PRIVACY POLICY</h1>
+					 <p class="disclaimer-txt">Thank you for visiting JP Infra’s website.
+					This is to inform user / customer(s) that jpinfra.com is/are the only official websites of JP Infra (Mumbai) Private Limited (“Company”). User/Customer(s) are cautioned and advised not to rely upon any information stated on any other websites which may appear to be similar to the company’s official website, including containing company’s logo / brand name. The information contained in such websites may be misleading/false and user/customer(s) may suffer loss if they rely on such information. In the event user/customer(s) come across any such websites similar to company’s official website containing its brand name/logo or any other information, then kindly contact and inform us on sales@jpinfra.com in order to enable the Company to take necessary action. Please ensure that you deal with only RERA registered real estate agents (“Registered Real Estate Agents”) whose name appear as a real estate agent under the project name on the RERA web site. If you have received any unsolicited calls or text messages in breach of the regulatory norms or from agents not registered with us, please do not trust such information and report such instances to us on sales@jpinfra.com for our further investigation.
+					Specifications and amenities mentioned in this website are only representative and informative. Information, images and visuals, drawings, plans or sketches shown in this website are only an architect’s impression and are only indicative of the envisaged developments and the same are subject to approvals from local authorities and finalization by the Company. The Company reserves rights to make additions, deletions, alterations or amendments as and when it deems fit and proper, without any prior notice. No representation or warranty is made or intended as to the accuracy or completeness of information and no commitments are being given under this website as to it’s suitability or adequacy for any purpose or otherwise howsoever.
+					All dimensions mentioned in the drawings may vary/differ due to construction contingencies and site conditions. Actual product/ development and any other aspect may differ from what is portrayed herein. All layouts, plans, specifications, dimensions, designs, measurements and locations are indicative and not to scale and are subject to change as may be decided by the company and/or competent authority. Revision, alteration, modification, addition, deletion, substitution or recast, if any, may be necessary during construction. For accurate information, you are requested to contact the Company’s authorized sales personnel.
+					We endeavor to keep the information up to date and correct however we make no representations, guarantees, or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services or related graphics contained on the website for any purpose.
+					Information about projects is indicative. Artist's impressions, products, features, furniture, floor coverings, curtains, mirrors, wall hangings, light fittings, furnishings, pictures, images, plans, drawings, amenities, dimensions, elevations etc., if any, are shown as illustrations and for reference only.
+					The views shown in the picture may vary over period of time and Company does not guarantee the same. All intending purchaser/s are bound and expected to inspect all plans and approvals and visit project site and apprise themselves of all plans and approvals and other relevant information and nothing in this website is intended to substitute to the intending purchaser the actual plans and approvals obtained from time to time. The relationship between the Company and the actual customers will be governed strictly by the agreement for sale to be executed from time to time and not on the terms of this website. All details and prices quoted are indicative and have been calculated on basic rate.
+					This website is merely conceptual and is not a legal document. It cannot be treated as a part of the final purchase agreement/s that may be executed from time to time. The Company reserves right to change, amend, modify the contents of the brochure and architectural specifications during development stages. The Company/its Management and employees hold no responsibility for its accuracy and shall not be liable to any intending purchaser or any one for the changes/ alterations/ improvements so made.
+					The copyright, database rights, trademarks, patents, know how, confidential information and personal data and all other intellectual property contained in this website is the property of JP Infra and/or its affiliates.
+					The Company uses the information that we collect on the Site to contact you when requested in order to further discuss your interest in our company, our services, and to send information regarding our company or partners, such as marketing promotions and events. This information may also be used to improve the services we provide you. The information is collected and stored in a manner that is appropriate for the nature of the data that we collect, and the need to fulfill your request. This information is not provided to third parties for their use, unless specifically authorized by you.
+					The Company or its directors or employees will not be liable for any loss, damage, errors, injury, whether direct, indirect, consequential or incidental, suffered or incurred by any person/s or due to any use and/or inability to use this site or information or its links, hyperlinks, action taken or abstained, any transmission made through this site and news groups, even if the Company and/or its employees or directors have been notified of the possibilities of potential damages or losses.
+					Any recipient or user of any information or material from this site may avail of the same entirely at his/her own risk as to costs and consequences, thereof.
+					For further information on the registered projects please refer to 'https://maharera.mahaonline.gov.in/'
+					</p>
+					 <button class="buttonStyle" id="button">Close</button>
+			</div>
+		</div>
+	</div> -->
+
+<!-- <script>
+$('#myModal2').modal({ backdrop: 'static', keyboard: false })
+</script> -->
+
+
 <!---->
 <script src="js/send.js"></script>
 <script src="js/slickminjscode.js"></script>

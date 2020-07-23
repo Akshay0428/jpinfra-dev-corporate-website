@@ -4220,7 +4220,7 @@ Footer
 }
 
 .box-inner {
-	width: 50%;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -4621,8 +4621,29 @@ Home  page narang slider
 	font-weight: 300 !important;
 }
 
-.swiper-slide__block .main__subtitle {
+.swiper-slide__block .main__subtitle1 {
 	font-size: 0.9em;
+	margin-left: -36px;
+	font-family: 'Poppins', sans-serif !important;
+	padding-top: 12px;
+	line-height: 19px;
+	color: #333333 !important;
+	text-transform: uppercase;
+	font-weight: bold !important;
+}
+.swiper-slide__block .main__subtitle2 {
+	font-size: 0.9em;
+	margin-left: -36px;
+	font-family: 'Poppins', sans-serif !important;
+	padding-top: 12px;
+	line-height: 19px;
+	color: #8e8e8e !important;
+	text-transform: uppercase;
+	font-weight: 500 !important;
+}
+.swiper-slide__block .main__subtitle3 {
+	font-size: 0.9em;
+	font-style: italic;
 	margin-left: -36px;
 	font-family: 'Poppins', sans-serif !important;
 	padding-top: 12px;
@@ -4631,7 +4652,6 @@ Home  page narang slider
 	text-transform: uppercase;
 	font-weight: 500 !important;
 }
-
 .swiper-slide__block .main__title {
 	margin-top: 60px;
 	margin-left: -36px;
@@ -4639,7 +4659,7 @@ Home  page narang slider
 	line-height: 28px;
 	font-family: 'Poppins', sans-serif !important;
 	color: #333 !important;
-	font-weight: 500 !important;
+	font-weight: bold !important;
 }
 
 div#project h4 {
