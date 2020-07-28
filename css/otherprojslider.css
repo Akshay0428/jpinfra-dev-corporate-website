@@ -827,7 +827,7 @@ template {
 		line-height: 0px;
 	}
 	.swiper-button-prev {
-		top: 35.5% !important;
+		top: 35% !important;
 	}
 	.project {
 		margin-top: 0px;
@@ -842,7 +842,7 @@ template {
 
 @media only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
 	.swiper-button-prev {
-		top: 40.5% !important;
+		top: 40% !important;
 	}
 }
 
@@ -851,12 +851,12 @@ template {
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
 	.swiper-button-prev {
-		top: 36.7% !important;
+		top: 36% !important;
 	}
 }
 
 @media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
 	.swiper-button-prev {
-		top: 36.7% !important;
+		top: 36% !important;
 	}
 }
