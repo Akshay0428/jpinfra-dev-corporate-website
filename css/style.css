@@ -5627,6 +5627,36 @@ Responsive Code
 	.navCall {
 		display: none;
 	}
+
+	/*narang slider*/
+
+.swiper-slide__block .paragraphe {
+	margin-left: 0;
+}
+
+.swiper-slide__block .main__subtitle1 {
+	margin-left: 0;
+}
+.swiper-slide__block .main__subtitle2 {
+	margin-left: 0;
+}
+.swiper-slide__block .main__subtitle3 {
+	margin-left: 0;
+}
+.swiper-slide__block .main__title {
+	margin-top: 60px;
+	margin-left: 0;
+	letter-spacing: 2px;
+	line-height: 28px;
+	font-family: 'Poppins', sans-serif !important;
+	color: #333 !important;
+	font-weight: bold !important;
+}
+
+
+
+
+
 	/*--------------------------------------------------------------
     Home Page
     --------------------------------------------------------------*/
