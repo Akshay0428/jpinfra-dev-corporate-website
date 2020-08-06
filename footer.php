@@ -6,6 +6,12 @@
 .moretext {
   display: none;
 }
+.article p{
+	text-align: left;
+}
+.moretext p{
+	text-align: left;
+}
 </style>
 
 <!-- new div footer -->
