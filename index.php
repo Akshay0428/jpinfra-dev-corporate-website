@@ -14,15 +14,69 @@
   <style>
 
 /* Important part */
+
+
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #2e5484 !important;
+  text-shadow: 0 1px 0 #ffffff;
+  /*opacity: 0.2;*/
+  filter: alpha(opacity=20);
+}
+.close:hover,
+.close:focus {
+  color: #2e5484;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  outline: none;
+    border: none;
+    box-shadow: none;
+}
+button.close {
+    color: #2e5484;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+.form-group {
+    margin-bottom: 0;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+input {
+    padding: 3% 3%;
+    width: 247px;
+    border: 1px solid #2e56896b!important;
+    margin: 0% 0% 0% 0%;
+    box-shadow: 0px 0px 0px 0px #1c385d5e;
+    font-size: 12px;
+    border-radius: 4%;
+}
+.form-submit-custom {
+    background-color: #2e5484;
+    color: #fff;
+}
 .modal{
     display: block !important;
 }
-.modal-dialog{
-    overflow-y: initial !important
+.modal-dialog {
+    width: 25%;
+    margin: 0 auto;
+    top: 10%;
 }
 .modal-body{
-    height: 250px;
-    overflow-y: auto;
+    height: auto;
 }
 
     video#myVideo {
@@ -2096,85 +2150,81 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
    </div>
 </div>
 
- <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Open Modal</button> -->
 
-<!-- <div class="modal fade" id="myModal2" role="dialog">
-	<div class="modal-dialog" style="max-width: 600px;"> -->
 
-		<!-- Modal content-->
-<!-- 		<div class="modal-content">
-			<div class="modal-header" style="background: #0071bc;color: #fff;text-align: left;border-top-left-radius: 4px;
-    border-top-right-radius: 4px;">
-				<h4 class="modal-title" style="font-size: 20px;font-family: roboto;">Agreement</h4>
-			</div>
-			<div class="modal-body">
-				<p style="font-size: 14px;color: #4a4747;font-family: roboto;line-height: 23px;margin-bottom: 0px;padding: 0px 15px 0px;height: 200px;overflow-y: scroll;text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-				<div class="text-center">
-					<button type="button" class="btn btn-default" data-dismiss="modal" style="background: #0071bc;color: #fff;
-    padding: 7px 21px;margin-top: 30px;margin-bottom: 15px;">I Agree</button>
-				</div>
-			</div>
-		</div>
+<a href="#" class="btn btn-default" id="openBtn">Open modal</a>
+<!-- 
+<div id="modal-content" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h3>Enquiry Form</h3>
+            </div>
+            <div class="modal-body">
+              <div class="custom-frm">
+               <form class="bottom-form con-page-form" name="insightly_web_to_lead" action="" method="post">
 
-	</div>
+                  <input type="hidden" name="Brand" class="form-control" value="M3M" id="brand2">
+                  <input type="hidden" name="Category" class="form-control" value="Website" id="category2" required>
+                  
+                  <div class="form-group form-group-custom">
+                     <label for="exampleInputEmail1" class="text-capitalize">
+                        <h6 class="font-400">name</h6>
+                     </label>
+                     <input type="text" class="form-control text-capitalize form-control-custom" id="insightly_firstName2" aria-describedby="emailHelp" placeholder="name" required>
+                  </div>
+
+                  <div class="form-group form-group-custom">
+                     <label for="exampleInputEmail1">
+                        <h6 class="font-400">E-mail</h6>
+                     </label>
+                     <input type="email" class="form-control form-control-custom" id="insightly_Email2" aria-describedby="emailHelp" placeholder="E-mail ID" required>
+                  </div>
+
+                  <div class="form-group form-group-custom">
+                     <label for="exampleInputEmail1" class="text-capitalize">
+                        <h6 class="font-400">phone no.</h6>
+                     </label>
+                     <input type="text" class="form-control text-capitalize form-control-custom" id="insightly_Phone2" aria-describedby="emailHelp"  maxlength="10" minlength="10" placeholder="+91-" required>
+                  </div>
+
+                  <div class="form-group form-group-custom marg-top">
+                     <input type="submit" class="form-control text-capitalize form-submit-custom" value="SUBMIT" onclick='myfunction2();return(false);'>
+                  </div>
+
+               </form>
+              </div>
+            </div>
+        </div>
+    </div>
 </div>
- -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
 
+<script>
+  // set focus when modal is opened
+$('#modal-content').on('shown.bs.modal', function () {
+    $("#txtname").focus();
+});
 
-<!-- <div class="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
-    <div class="modal-dialog" style="overflow-y: scroll; max-height:85%;  margin-top: 50px; margin-bottom:50px;" > 
-        <div class="modal-content"> 
-            <div class="modal-header"> 
-                <h3 class="modal-title">ASDFASDFASDFASDF</h3> 
-            </div> 
-            <div class="modal-body">ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
-          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
-          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
-          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
-          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
-          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
-          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
-          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
-          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
-          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
-          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF
-          ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF ASFASDFASDFASDF</div> 
-          <div class="modal-footer"> -->
-        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-      <!-- </div>
-        </div> 
-    </div> 
-</div>  -->
+// show the modal onload
+$('#modal-content').modal({
+    show: true
+});
 
-<!-- 	<div id="modalOverlay">
-		<div class="modalPopup">
-			<div class="modalContent">
-					<h1>DISCLAIMER & PRIVACY POLICY</h1>
-					 <p class="disclaimer-txt">Thank you for visiting JP Infra’s website.
-					This is to inform user / customer(s) that jpinfra.com is/are the only official websites of JP Infra (Mumbai) Private Limited (“Company”). User/Customer(s) are cautioned and advised not to rely upon any information stated on any other websites which may appear to be similar to the company’s official website, including containing company’s logo / brand name. The information contained in such websites may be misleading/false and user/customer(s) may suffer loss if they rely on such information. In the event user/customer(s) come across any such websites similar to company’s official website containing its brand name/logo or any other information, then kindly contact and inform us on sales@jpinfra.com in order to enable the Company to take necessary action. Please ensure that you deal with only RERA registered real estate agents (“Registered Real Estate Agents”) whose name appear as a real estate agent under the project name on the RERA web site. If you have received any unsolicited calls or text messages in breach of the regulatory norms or from agents not registered with us, please do not trust such information and report such instances to us on sales@jpinfra.com for our further investigation.
-					Specifications and amenities mentioned in this website are only representative and informative. Information, images and visuals, drawings, plans or sketches shown in this website are only an architect’s impression and are only indicative of the envisaged developments and the same are subject to approvals from local authorities and finalization by the Company. The Company reserves rights to make additions, deletions, alterations or amendments as and when it deems fit and proper, without any prior notice. No representation or warranty is made or intended as to the accuracy or completeness of information and no commitments are being given under this website as to it’s suitability or adequacy for any purpose or otherwise howsoever.
-					All dimensions mentioned in the drawings may vary/differ due to construction contingencies and site conditions. Actual product/ development and any other aspect may differ from what is portrayed herein. All layouts, plans, specifications, dimensions, designs, measurements and locations are indicative and not to scale and are subject to change as may be decided by the company and/or competent authority. Revision, alteration, modification, addition, deletion, substitution or recast, if any, may be necessary during construction. For accurate information, you are requested to contact the Company’s authorized sales personnel.
-					We endeavor to keep the information up to date and correct however we make no representations, guarantees, or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services or related graphics contained on the website for any purpose.
-					Information about projects is indicative. Artist's impressions, products, features, furniture, floor coverings, curtains, mirrors, wall hangings, light fittings, furnishings, pictures, images, plans, drawings, amenities, dimensions, elevations etc., if any, are shown as illustrations and for reference only.
-					The views shown in the picture may vary over period of time and Company does not guarantee the same. All intending purchaser/s are bound and expected to inspect all plans and approvals and visit project site and apprise themselves of all plans and approvals and other relevant information and nothing in this website is intended to substitute to the intending purchaser the actual plans and approvals obtained from time to time. The relationship between the Company and the actual customers will be governed strictly by the agreement for sale to be executed from time to time and not on the terms of this website. All details and prices quoted are indicative and have been calculated on basic rate.
-					This website is merely conceptual and is not a legal document. It cannot be treated as a part of the final purchase agreement/s that may be executed from time to time. The Company reserves right to change, amend, modify the contents of the brochure and architectural specifications during development stages. The Company/its Management and employees hold no responsibility for its accuracy and shall not be liable to any intending purchaser or any one for the changes/ alterations/ improvements so made.
-					The copyright, database rights, trademarks, patents, know how, confidential information and personal data and all other intellectual property contained in this website is the property of JP Infra and/or its affiliates.
-					The Company uses the information that we collect on the Site to contact you when requested in order to further discuss your interest in our company, our services, and to send information regarding our company or partners, such as marketing promotions and events. This information may also be used to improve the services we provide you. The information is collected and stored in a manner that is appropriate for the nature of the data that we collect, and the need to fulfill your request. This information is not provided to third parties for their use, unless specifically authorized by you.
-					The Company or its directors or employees will not be liable for any loss, damage, errors, injury, whether direct, indirect, consequential or incidental, suffered or incurred by any person/s or due to any use and/or inability to use this site or information or its links, hyperlinks, action taken or abstained, any transmission made through this site and news groups, even if the Company and/or its employees or directors have been notified of the possibilities of potential damages or losses.
-					Any recipient or user of any information or material from this site may avail of the same entirely at his/her own risk as to costs and consequences, thereof.
-					For further information on the registered projects please refer to 'https://maharera.mahaonline.gov.in/'
-					</p>
-					 <button class="buttonStyle" id="button">Close</button>
-			</div>
-		</div>
-	</div> -->
-
-<!-- <script>
-$('#myModal2').modal({ backdrop: 'static', keyboard: false })
-</script> -->
+// everytime the button is pushed, open the modal, and trigger the shown.bs.modal event
+$('#openBtn').click(function () {
+    $('#modal-content').modal({
+        show: true
+    });
+});
+</script>
 
 
 <!---->
+
+
 <script src="js/send.js"></script>
 <script src="js/slickminjscode.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>

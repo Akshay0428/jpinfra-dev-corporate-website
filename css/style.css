@@ -329,7 +329,16 @@ Header
 	background-repeat: no-repeat;
 }
 
-
+/*--------------------------------------------------------------
+POPUP FORM
+--------------------------------------------------------------*/
+.marg-top{
+	margin-top: 5%;
+}
+.modal-header h3 {
+    color: #2e5484;
+    text-align: center;
+}
 /*--------------------------------------------------------------
 Navbar
 --------------------------------------------------------------*/
@@ -6208,6 +6217,16 @@ north Page
 	/*--------------------------------------------------------------
     DELIVERED PRORJECT Page mob
     --------------------------------------------------------------*/
+/*    .columews:hover {
+	    opacity: 1;
+	    background-color: #ffffffe0;
+	    transition: none !important;
+	    left: 0px;
+	}
+	.media_hveff_pro {
+	    transition: none !important;
+	    left: 0px;
+	}*/
 	.p-deltemp {
 		font-size: 12px;
 		top: 30%;
@@ -6289,11 +6308,11 @@ north Page
 		width: 86%;
 		left: 7%
 	}
-	.media_hveff_pro:hover {
+/*	.media_hveff_pro:hover {
 		top: 81%;
 		width: 88%;
 		left: 6%;
-	}
+	}*/
 	.world_main {
 		width: 98%;
 	}

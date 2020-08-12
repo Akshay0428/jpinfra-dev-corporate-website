@@ -1091,7 +1091,7 @@
 					prevArrow:'<button type="button" class="prev-button"></button>',
 			        nextArrow:'<button type="button" class="next-button"></button>',
 					infinite: true,
-					autoplay: true,
+					autoplay: false,
 					speed: 300,
 					slidesToShow: 3,
 					slidesToScroll: 1,
