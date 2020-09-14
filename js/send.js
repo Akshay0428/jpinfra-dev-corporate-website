@@ -321,3 +321,301 @@ else if(name == '' || email == '' || code == '' || phone == '' || city == '' || 
 }
 
 
+//popup form
+
+function myfunction3() {
+
+
+
+    var brandName = $('#brand3').val();
+
+    var catName = $('#category3').val();
+
+    var firstName = $('#insightly_firstName3').val();
+
+    var email = $('#insightly_Email3').val();
+
+    var code = $('#code_dailing3').val();
+
+    var phone = $('#insightly_Phone3').val();
+
+    var city = $('#insightly_City3').val();
+
+    var country = $('#selected_country3').val();
+    
+    var message = $('#insightly_Message3').val();
+
+    var source = getUrlParameter('utm_source');
+
+    var medium = getUrlParameter('utm_medium');
+
+    var campaign = getUrlParameter('utm_campaign');
+
+    var term = getUrlParameter('utm_term');
+
+    var display = getUrlParameter('utm_display');
+
+    var formData = { brandName : brandName, catName : catName, firstName : firstName, email : email, code : code, phone : phone, message : message, city : city, country : country, source : source, medium : medium, campaign : campaign, term : term, display : display };
+
+    
+
+    // alert(firstName);
+
+    // alert('i m here');
+
+    
+
+
+  if (callValidation3()) // Calling validation function
+
+{
+
+ $.ajax({
+
+            type: 'POST',
+
+            url: "visit.php",
+
+            data: formData,
+
+            success: function(resultData) { //alert("Thank You, Your Form has been submitted Successfully");
+
+            location.href = "thank_you_page.php"}
+
+        });
+
+}
+
+
+
+}
+
+
+
+function callValidation3(){
+
+    // console.log('i m here');
+
+    var str = 'Please Enter ';
+
+    
+
+    var name = $('#insightly_firstName3').val();
+
+    var email = $('#insightly_Email3').val();
+
+    var code = $('#code_dailing3').val();
+
+    var phone = $('#insightly_Phone3').val();
+
+    var city = $('#insightly_City3').val();
+
+    var country = $('#selected_country3').val();
+
+    
+
+
+
+if(name == '' && email == '' && code == '' && phone == '' && city == '' && country == '') {
+
+        alert ('Please fill all the Fields');
+
+        return false;
+
+    }
+
+
+
+else if(name == '' || email == '' || code == '' || phone == '' || city == '' || country == '') {
+
+        if(name == '') {
+
+            str = str + 'Name';
+
+            if(email == '' || phone == '') {
+
+                str = str + ', ';
+
+            } else {
+
+                str = str + '.';
+
+            }
+
+        }
+
+ 
+
+        if(email == '') {
+
+            str = str + 'Email ID';
+
+            if(name == '' || phone == '') {
+
+                str = str + ', ';
+
+            } else {
+
+                str = str + '.';
+
+            }
+
+        }
+
+        
+
+   
+
+     if(code == '') {
+
+            str = str + 'Dialling Code';
+
+               if(name == '' || phone == '') {
+
+                str = str + ', ';
+
+            } else {
+
+                str = str + '.';
+
+            }
+
+        }
+
+   
+
+        
+
+        if(phone == '') {
+
+            str = str + 'Contact No.';
+
+        }
+
+        
+
+            if(city == '') {
+
+            str = str + 'City Name';
+
+        }
+
+        
+
+             if(country == '') {
+
+            str = str + 'Country Name';
+
+        }
+
+        
+
+    alert(str);
+
+    return false;
+
+    }
+
+
+
+
+
+    
+
+    if(document.getElementById('insightly_firstName3').value == ''){
+
+        // console.log('i m if name');
+
+        alert('Please enter Name');
+
+        return false;
+
+    } else {
+
+        // console.log('i m else name');
+
+        var x=document.getElementById('insightly_firstName3').value; 
+
+        var reg = /^[A-z ]+$/;
+
+        if(!reg.test(x)) {
+
+            // console.log('i m else if name');
+
+            alert('Name must contain only characters');
+
+            return false;
+
+        }
+
+    }
+
+
+
+
+
+    if(document.getElementById('insightly_Email3').value == ''){
+
+        // console.log('i m if email');
+
+            alert('Please enter Email');
+
+            return false;
+
+        } else {
+
+            var email = document.getElementById('insightly_Email3').value;
+
+            var emailReg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email);
+
+            if(!emailReg) {
+
+               // console.log('i m in if');
+
+                alert("You have entered an invalid email address!")
+
+                return false;
+
+            }
+
+          //  console.log('i m outside if');
+
+        }
+
+    if(document.getElementById('insightly_Phone3').value == ''){
+
+        // console.log('i m if phone');
+
+            alert('Please enter Number');
+
+            return false;
+
+        }
+
+    else {
+
+        // console.log('i m else phone');
+
+        var p;
+
+        p = document.getElementById('insightly_Phone3').value;
+
+        // If x is Not a Number or less than one or greater than 10
+
+        if (isNaN(p) || p < 1999999999 || p > 10000000000) {
+
+            // console.log('i m else if phone');
+
+            alert("Enter a valid mobile number");
+
+           return false;
+
+        }
+
+    }
+
+    
+    return true;
+
+}
+

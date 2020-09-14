@@ -1,0 +1,74 @@
+/*! responsive-nav.js 1.0.32 by @viljamis */
+
+.nav-collapse li,
+.nav-collapse ul {
+    width: 100%;
+    display: block
+}
+
+.nav-collapse ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    clear: both
+}
+
+.active-m,
+.nav-toggle {
+    padding: 5px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    float: left
+}
+
+.js .nav-collapse {
+    clip: rect(0 0 0 0);
+    max-height: 0;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    zoom: 1;
+    clear: both
+}
+
+.nav-collapse.opened {
+    max-height: 9999px;
+    clear: both
+}
+
+.disable-pointer-events {
+    pointer-events: none!important
+}
+
+.nav-toggle {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    background: url(../images/menu.png) no-repeat;
+    margin: 8px 0 0
+}
+
+.active-m {
+    background: url(../images/menu-close.png) no-repeat!important
+}
+
+@media screen and (min-width:801px) {
+    .nav-collapse.opened {
+        position: relative;
+        z-index: 600000!important
+    }
+    .js .nav-collapse {
+        position: relative
+    }
+    .js .nav-collapse.closed {
+        max-height: none
+    }
+    .nav-toggle {
+        display: none
+    }
+}

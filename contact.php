@@ -1,7 +1,7 @@
 <?php include 'header.php';?>
 
 <div class="logo-banner">
-	      <a href="https://www.dotwisedigital.com/jpuat">
+	      <a href="https://www.jpinfra.com">
             <img src="img/JP Infra Logo.png">
         </a>
 	   </div>
@@ -33,12 +33,12 @@
                 <br>
                 <!--btn-->
 	            <div class="project-property-button contact-btn">
-	                <div class="know-text-project-property">
-	                    <button type="submit" id="button_enquiry_desktop" onclick='myfunction();return(false);'><h5>Know More</h5></button>
-	                </div>
-	                <div class="know-arrow-project-property">
+	                <!-- <div class="know-text-project-property"> -->
+	                    <button type="submit" id="button_enquiry_desktop" onclick='myfunction();return(false);'><h5>SUBMIT</h5></button>
+	                <!-- </div> -->
+	                <!-- <div class="know-arrow-project-property">
 	                    <img src="img/Project Button Arrow.png" class="know-arrow-property" alt="arrow">
-	                </div>
+	                </div> -->
 	                <div class="clearfix"></div>
 	            </div>
 	            <div class="clearfix"></div>

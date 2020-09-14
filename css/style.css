@@ -339,6 +339,110 @@ POPUP FORM
     color: #2e5484;
     text-align: center;
 }
+.modal-header {
+    padding: 10px;
+    border-bottom: none !important;
+}
+.modal-dialog {
+    width: 50% !important;
+    top: 10%;
+    position: relative;
+}
+.modal-header .close {
+    margin-top: 0px;
+    background-color: #2e5484;
+    opacity: 1;
+}
+.modal-header .close {
+    background-color: #2e5484;
+    opacity: 1;
+    border-radius: 31px;
+    padding: 7px;
+    position: absolute;
+    top: -18px;
+    left: 98%;
+}
+.close:hover, .close:focus {
+    color: #2e5484;
+     opacity: 1 !important; 
+}
+.close {
+    color: #fff !important;
+    text-shadow: none;
+}
+
+button.close {
+    color: #2e5484;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+.form-group {
+    margin-bottom: 0;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+input {
+    padding: 3% 3%;
+    width: 247px;
+    border: 1px solid #2e56896b!important;
+    margin: 0% 0% 0% 0%;
+    box-shadow: 0px 0px 0px 0px #1c385d5e;
+    font-size: 12px;
+    border-radius: 4%;
+}
+.form-submit-custom {
+    background-color: #2e5484;
+    color: #fff;
+}
+.modal{
+    display: block;
+}
+.modal-body{
+    height: auto;
+}
+.pop-col-phone{
+	margin: 15px 0px;
+    width: 80%;
+    padding: 10px 10px;
+    outline: none;
+    box-shadow: none;
+}
+.select-drop{
+	text-transform: none;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    border-color: #2e56896b!important;
+    border-radius: 4%;
+    outline: none;
+    box-shadow: none;
+}
+span#ccode3 input[type="text"] {
+	width: 80%;
+}
+span#ccode3 {
+	width: 20%;
+	float: left;
+}
+
+span#ccode3 input[type="text"] {
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	padding: 8px !important;
+	margin: 15px 0px;
+	border-color: #2e5484;
+	outline: none;
+    box-shadow: none;
+    height: auto;
+}
 /*--------------------------------------------------------------
 Navbar
 --------------------------------------------------------------*/
@@ -2189,7 +2293,6 @@ section.main-npslider {
 
 .color-heading {
 	color: #2e5484;
-	;
 }
 
 .color-black {
@@ -3922,8 +4025,16 @@ img.button-project {
 Contact Page
 --------------------------------------------------------------*/
 
-.contact-btn {
+/*.contact-btn {
 	width: 65% !important;
+}*/
+
+.contact-btn {
+    width: 100% !important;
+    text-align: center;
+    padding: 0;
+    background-color: #2e5484;
+    color: #fff;
 }
 
 .desktop_cont {
@@ -4458,6 +4569,8 @@ span#ccode input[type="text"] {
 	padding: 8px !important;
 	margin: 15px 0px;
 	border-color: #2e5484;
+	    outline: none;
+    box-shadow: none;
 }
 
 .phone-control {

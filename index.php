@@ -14,70 +14,9 @@
   <style>
 
 /* Important part */
-
-
-.close {
-  float: right;
-  font-size: 21px;
-  font-weight: bold;
-  line-height: 1;
-  color: #2e5484 !important;
-  text-shadow: 0 1px 0 #ffffff;
-  /*opacity: 0.2;*/
-  filter: alpha(opacity=20);
-}
-.close:hover,
-.close:focus {
-  color: #2e5484;
-  text-decoration: none;
-  cursor: pointer;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-  outline: none;
-    border: none;
-    box-shadow: none;
-}
-button.close {
-    color: #2e5484;
-  padding: 0;
-  cursor: pointer;
-  background: transparent;
-  border: 0;
-  -webkit-appearance: none;
-}
-.form-group {
-    margin-bottom: 0;
-}
-label {
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 0;
-    font-weight: 700;
-}
-input {
-    padding: 3% 3%;
-    width: 247px;
-    border: 1px solid #2e56896b!important;
-    margin: 0% 0% 0% 0%;
-    box-shadow: 0px 0px 0px 0px #1c385d5e;
-    font-size: 12px;
-    border-radius: 4%;
-}
-.form-submit-custom {
-    background-color: #2e5484;
-    color: #fff;
-}
-.modal{
-    display: block !important;
-}
-.modal-dialog {
-    width: 25%;
-    margin: 0 auto;
-    top: 10%;
-}
-.modal-body{
-    height: auto;
-}
+.form-control {
+    margin: 0px;
+  }
 
     video#myVideo {
     width: 100%;
@@ -293,7 +232,7 @@ transition:all .6s ease-in-out;
            $('#ccode2').html('<input type="text" class="asp_code" id="code_dailing2" name="Phone" value="+91" readonly>');
        }
        
-          var countryID3 = $('#insightly_Country3').val();
+          var countryID3 = $('#insightly_Countrypop').val();
        
        if(countryID3 == 100) {
            $('#ccountry3').html('<input type="hidden" id="selected_country3" value="India">');
@@ -325,6 +264,33 @@ transition:all .6s ease-in-out;
            }else{
                
                $('#insightly_City').html('<option value="">Select city first</option>'); 
+           }
+       });
+
+           $('#insightly_Country3').on('change',function(){
+           var countryID = $(this).val();
+           if(countryID){
+               $.ajax({
+                   type:'POST',
+                   url:'ajaxData.php',
+                   data:'country_id='+countryID,
+                   dataType: 'html',
+                   success:function(html){
+                       // console.log(html);
+                       var result = $('<div />').append(html).find('#country_code3').html();
+                       console.log(result);
+                       var result2 = $('<div />').append(html).find('#selected_country_name3').html();
+                       // console.log(result2);
+                        $('#ccountry3').html(result2);
+                       $('#ccode3').html(result);
+                       $('#state3').html(html);
+                       // $('#insightly_City').html('<option value="">Select state first</option>');
+                       $('#insightly_City3').html(html);
+                   }
+               }); 
+           }else{
+               
+               $('#insightly_City3').html('<option value="">Select city first</option>'); 
            }
        });
        
@@ -2152,45 +2118,98 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
 
 
 
-<a href="#" class="btn btn-default" id="openBtn">Open modal</a>
-<!-- 
+<!-- <a href="#" class="btn btn-default" id="openBtn">Open modal</a> -->
+
 <div id="modal-content" class="modal fade" tabindex="-1" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">×</button>
-                <h3>Enquiry Form</h3>
+                
             </div>
-            <div class="modal-body">
-              <div class="custom-frm">
+            <div class="modal-body row">
+              <!-- <div class="col-lg-6 col-md-6 col-sm-12">
+                <img src="img/Untitled-1.jpg" alt="img">
+              </div> -->
+              <div class="custom-frm col-lg-12 col-md-12 col-sm-12">
+                <h3 class="text-center color-heading">Enquiry Form</h3>
                <form class="bottom-form con-page-form" name="insightly_web_to_lead" action="" method="post">
 
-                  <input type="hidden" name="Brand" class="form-control" value="M3M" id="brand2">
-                  <input type="hidden" name="Category" class="form-control" value="Website" id="category2" required>
+                  <input type="hidden" name="Brand" class="form-control" value="M3M" id="brand3">
+                  <input type="hidden" name="Category" class="form-control" value="Website" id="category3" required>
                   
                   <div class="form-group form-group-custom">
                      <label for="exampleInputEmail1" class="text-capitalize">
                         <h6 class="font-400">name</h6>
                      </label>
-                     <input type="text" class="form-control text-capitalize form-control-custom" id="insightly_firstName2" aria-describedby="emailHelp" placeholder="name" required>
+                     <input type="text" class="form-control text-capitalize form-control-custom" id="insightly_firstName3" aria-describedby="emailHelp" placeholder="name" required>
                   </div>
 
                   <div class="form-group form-group-custom">
                      <label for="exampleInputEmail1">
                         <h6 class="font-400">E-mail</h6>
                      </label>
-                     <input type="email" class="form-control form-control-custom" id="insightly_Email2" aria-describedby="emailHelp" placeholder="E-mail ID" required>
+                     <input type="email" class="form-control form-control-custom" id="insightly_Email3" aria-describedby="emailHelp" placeholder="E-mail ID" required>
                   </div>
 
-                  <div class="form-group form-group-custom">
-                     <label for="exampleInputEmail1" class="text-capitalize">
-                        <h6 class="font-400">phone no.</h6>
-                     </label>
-                     <input type="text" class="form-control text-capitalize form-control-custom" id="insightly_Phone2" aria-describedby="emailHelp"  maxlength="10" minlength="10" placeholder="+91-" required>
-                  </div>
-
+               <div class="form-group form-group-custom">
+                  <span id="ccode3">
+                    <input type="text" name="code_dailing1" id="code_dailing3" value="+91" readonly="">
+                  </span>
+                  <input type="text" class="pop-col-phone" name="insightly_Phone" id="insightly_Phone3" minlength="10" maxlength="10" required="" placeholder="Mobile No.*">
+               </div>
+               <div class="form-group form-group-custom">
+                  <?php
+                     //Include database configuration file
+                     include('dbConfig.php');
+                     
+                     //Get all country data
+                     $query = $db->query("SELECT * FROM countries WHERE status = 1 ORDER BY asp DESC");
+                     
+                     //Count total number of rows
+                     $rowCount = $query->num_rows;
+                     ?>
+                  <select class="select-drop" title="Country" id="insightly_Country3" name="Country">
+                  <?php
+                     if($rowCount > 0){
+                         while($row = $query->fetch_assoc()){
+                         echo '<option value1="'.$row['country_name'].'" value="'.$row['country_id'].'">'.$row['country_name'].'</option>';
+                     }
+                     }else{
+                     echo '<option value="">Country not available</option>';
+                     }
+                     ?>
+                  </select>       
+               </div>
+               <div class="form-group form-group-custom">
+                  <?php
+                     //Get all country data
+                     // $query = $db->query("SELECT * FROM cities WHERE status = 1 ORDER BY asp_city DESC");
+                     $query = $db->query("SELECT c.city_id, c.city_name, st.state_id, st.state_name, co.country_id, co.country_name
+                     FROM cities c
+                     JOIN states st
+                      ON c.state_id = st.state_id
+                     JOIN countries co
+                      ON st.country_id = co.country_id
+                     WHERE co.country_id = 100 ORDER BY asp_city DESC");
+                     //Count total number of rows
+                     $rowCount = $query->num_rows;
+                     ?>
+                  <select class="select-drop" name="city" id="insightly_City3">
+                  <?php
+                     if($rowCount > 0){
+                         while($row = $query->fetch_assoc()){ 
+                             echo '<option value="'.$row['city_name'].'">'.$row['city_name'].'</option>';
+                         }
+                     }else{
+                         echo '<option value="">Country not available</option>';
+                     }
+                     ?>
+                  </select>             
+               </div>
+                <span id="ccountry3"><input type="hidden" class="form-field asp_code" id="insightly_Country_name" name="" value=""></span>
                   <div class="form-group form-group-custom marg-top">
-                     <input type="submit" class="form-control text-capitalize form-submit-custom" value="SUBMIT" onclick='myfunction2();return(false);'>
+                     <input type="submit" class="form-control text-capitalize form-submit-custom" value="SUBMIT" onclick='myfunction3();return(false);'>
                   </div>
 
                </form>
@@ -2200,7 +2219,7 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
     </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script> -->
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 <script>
   // set focus when modal is opened
@@ -2226,6 +2245,7 @@ $('#openBtn').click(function () {
 
 
 <script src="js/send.js"></script>
+<!-- <script src="js/send2.js"></script> -->
 <script src="js/slickminjscode.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
 <script>
