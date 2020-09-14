@@ -11,54 +11,54 @@ $message = "No Field on Home Page";
 $ipa = $_SERVER['REMOTE_ADDR'];
 
 
-$mail = new PHPMailer();
+// $mail = new PHPMailer();
 
-$mail->IsSMTP();
-$mail->Host = "dotwisedigital.com";
+// $mail->IsSMTP();
+// $mail->Host = "dotwisedigital.com";
 
-$mail->SMTPAuth = true;
-// $mail->SMTPSecure = "ssl";
-$mail->Port = 587;
-$mail->Username = "info@dotwisedigital.com";
-$mail->Password = "dotwise@digital123";
+// $mail->SMTPAuth = true;
+// // $mail->SMTPSecure = "ssl";
+// $mail->Port = 587;
+// $mail->Username = "info@dotwisedigital.com";
+// $mail->Password = "dotwise@digital123";
 
-$mail->From = "info@dotwisedigital.com";
-$mail->FromName = "JP Infra Website";
-$mail->AddAddress("akshay.khambe@gmail.com");
-$mail->AddReplyTo("$email");
+// $mail->From = "info@dotwisedigital.com";
+// $mail->FromName = "JP Infra Website";
+// $mail->AddAddress("akshay.khambe@gmail.com");
+// $mail->AddReplyTo("$email");
 
-$mail->IsHTML(true);
+// $mail->IsHTML(true);
 
-$mail->Subject = "Enquiry Form JP Infra Website";
-$mail->Body = "
-Name: $name <br>
-Email: $email <br>
-Country Code.: $code <br>
-Phone: $phone <br>
-City: $city <br>
-Country: $country <br>
-Ip Adddress: $ipa <br>
-";
-$mail->Send();
+// $mail->Subject = "Enquiry Form JP Infra Website";
+// $mail->Body = "
+// Name: $name <br>
+// Email: $email <br>
+// Country Code.: $code <br>
+// Phone: $phone <br>
+// City: $city <br>
+// Country: $country <br>
+// Ip Adddress: $ipa <br>
+// ";
+// $mail->Send();
 
-$mail->ClearAllRecipients();
+// $mail->ClearAllRecipients();
 
-$mail->Subject = "User Mail";
-$mail->Body = "Thank You contacting JP Infra";
+// $mail->Subject = "User Mail";
+// $mail->Body = "Thank You contacting JP Infra";
 
-$mail->AddAddress("$email");
-
-
+// $mail->AddAddress("$email");
 
 
-//$mail->AltBody = "This is the body in plain text for non-HTML mail clients";
 
-if(!$mail->Send())
-{
-echo "Message could not be sent. <p>";
-echo "Mailer Error: " . $mail->ErrorInfo;
-exit;
-}
+
+// //$mail->AltBody = "This is the body in plain text for non-HTML mail clients";
+
+// if(!$mail->Send())
+// {
+// echo "Message could not be sent. <p>";
+// echo "Mailer Error: " . $mail->ErrorInfo;
+// exit;
+// }
 
 
 $servername = 'localhost';
