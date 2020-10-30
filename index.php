@@ -2128,10 +2128,10 @@ This is a rendered image of the interior of North Garden City's clubhouse prepar
                 
             </div>
             <div class="modal-body row">
-              <!-- <div class="col-lg-6 col-md-6 col-sm-12">
-                <img src="img/Untitled-1.jpg" alt="img">
-              </div> -->
-              <div class="custom-frm col-lg-12 col-md-12 col-sm-12">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <img src="img/popup-img.jpg" alt="img">
+              </div>
+              <div class="custom-frm col-lg-6 col-md-6 col-sm-12">
                 <h3 class="text-center color-heading">Enquiry Form</h3>
                <form class="bottom-form con-page-form" name="insightly_web_to_lead" action="" method="post">
 

@@ -314,7 +314,7 @@
                                             </div>
                                             <div class="clearfix"></div>    
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <p>A prized city, Barcelona gave life back to their streets by introducing this concept and we, at JP Infra, are striving to do the same. In the hustle and bustle of Mumbai’s busy streets, you get to experience a pollution-free zone by restricting entry to carbon-emitting vehicles. JP Infra is proud to be part of bringing a slice of Europe to Mumbai to create a residential utopia, inspired by international style living.</p>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="clearfix"></div>
@@ -325,7 +325,7 @@
                                 <div class="solar-content">
                                     <div class="solar-img pos-relative">
                                         <img src="img/pushing_boundaries/Unity-Towers.jpg" alt="Waste-management">
-                                        <p class="pos-absolute pb-cb p-deliver"> Rendered Image</p>
+                                        <p class="pos-absolute pb-cb p-deliver"> Actual Image</p>
                                     </div>
                                     <div class="solar-txt">
                                         <div class="solar-img-txt">
@@ -337,7 +337,7 @@
                                             </div>
                                             <div class="clearfix"></div>    
                                         </div>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <p>We believe that we don't design houses, we design homes. Our buildings are designed with a unique blend of interior comfort and external convenience. Projects that we undertake are distinctive and eye catching from the rest.</p>
                                         <div class="clearfix"></div>
                                     </div>
                                     <div class="clearfix"></div>

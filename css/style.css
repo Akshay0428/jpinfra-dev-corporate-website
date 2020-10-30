@@ -344,7 +344,7 @@ POPUP FORM
     border-bottom: none !important;
 }
 .modal-dialog {
-    width: 50% !important;
+    width: 70% !important;
     top: 10%;
     position: relative;
 }
@@ -5665,6 +5665,12 @@ Responsive Code
 }
 
 @media only screen and (max-width:768px) {
+	.modal-dialog {
+	    width: 94% !important;
+	}
+	.modal-header .close{
+		left: 94%;
+	}
 	.navbar-brand {
 		padding: 16px 0px !important;
 		margin: 4px 0px 0px 25px !important;
