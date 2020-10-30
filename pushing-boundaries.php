@@ -282,7 +282,8 @@
                     <p class="carbon_txt">We at JP Infra believe in saving our environment and have ensured we follow what we believe in.</p>
                     <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>   -->
                 </div>
-                <div class="footprint-tab">
+                <div class="clearfix"></div> 
+                <div class="footprint-tab mrg-top-ut">
                     <div class="foot-img-line">
                         <img src="img/foot-line.png" alt="foot-line.png">
                         <div class="footprint-tabs-new">
@@ -376,7 +377,7 @@
                     <img src="img/pushing_boundaries/little_millennium.jpg" align="little_millennium">
                 </div>
                 <div class="icon-integ">
-                    <img src="img/pushing_boundaries/Podar-International-School-Logo.jpg" align="Podar-International-School-Logo">
+                    <img src="img/pushing_boundaries/Poddar-Logo.png" align="Podar-International-School-Logo">
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -397,7 +398,7 @@
                     <img src="img/pushing_boundaries/lakme-Salon.jpg" align="lakme-Salon">
                 </div>
                 <div class="icon-integ bord-t">
-                    <img src="img/pushing_boundaries/Podar-International-School-Logo.jpg" align="Podar-International-School-Logo">
+                    <img src="img/pushing_boundaries/Poddar-Logo.png" align="Podar-International-School-Logo">
                 </div>
               </div>
               <div class="clearfix"></div>

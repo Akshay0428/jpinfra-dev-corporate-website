@@ -7209,6 +7209,9 @@ p.carbon_txt2 {
 		display: block;
 	}
 	/*project page*/
+	.mrg-top-ut{
+		margin-top: 100px !important;
+	}
 	.pr_sl_img {
 		width: 100%;
 		float: none;
